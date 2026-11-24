@@ -1,0 +1,3425 @@
+{
+ "fuente": "T3_-_Equipo_-_06.xlsm",
+ "problema": {
+  "titulo": "BAJA EFICACIA DEL CUMPLIMIENTO DE MANTENIMIENTO PREVENTIVO EN LA EMPRESA TGM",
+  "indicador": "% Cumplimiento OT =  (OT ejecutadas / OT programadas) x 100%\n\n(Quispe & Espinoza, 2024)",
+  "objetivo_general": "Incrementar el eficacia de cumplimiento de las órdenes de trabajo de mantenimiento preventivo en la empresa TGM.",
+  "brecha_tecnica": 0.17307961646196968,
+  "vip": 0.7269203835380303,
+  "vr": 0.9,
+  "impacto_economico": 507515.9427,
+  "pct_ingresos": 0.19633111903288203,
+  "ingresos_anuales": 2585000,
+  "as_is": 0.7269203835380303,
+  "to_be": 0.9158,
+  "estandar": 0.9,
+  "van_planteamiento": 320909.11,
+  "ref": {
+   "brecha": "Planteamiento!K8",
+   "vip": "Planteamiento!J10",
+   "vr": "Planteamiento!J13",
+   "impacto": "Planteamiento!J16",
+   "pct": "Planteamiento!J19",
+   "ingresos": "Planteamiento!J21"
+  }
+ },
+ "causas": [
+  {
+   "id": "C1",
+   "codigo": "ADDIE",
+   "motivo": "Bajo cumplimiento de capacitación del personal técnico",
+   "causa_raiz": "Ausencia de un programa de capacitación continua en mantenimiento preventivo y autónomo.",
+   "indicador_formula": "C(asist) = (N° de colaboradores que asistieron / Total de colaboradores en el área) × 100 (Rojas, 2022)",
+   "herramienta": "ADDIE (Metodología)",
+   "objetivo": "Incrementar cumplimiento de capacitación del personal técnico, aplicando ADDIE",
+   "articulo": "Luo, R., Li, J., Zhang, X., Tian, D., & Zhang, Y. (2024). Effects of applying blended learning based on the ADDIE model in nursing staff training on improving theoretical and practical operational aspects. Frontiers in Medicine, 11, Article 1413032.  https://doi.org/10.3389/fmed.2024.1413032",
+   "as_is_plan": 0.618,
+   "to_be_plan": 0.918,
+   "estandar_plan": 0.9,
+   "ref": "Planteamiento!N10:AB10",
+   "indicador": "Cumplimiento de capacitación C(asist)",
+   "unidad": "%",
+   "sentido": "Mayor es mejor",
+   "tipo": "Metodología",
+   "as_is": 0.618,
+   "to_be": 0.918,
+   "estandar": 0.9,
+   "prom_mensual_asis": 0.6180555555555555,
+   "factor_mensual": 0.21469090909090893,
+   "mejora": 0.48543689320388356,
+   "inversion": 8440,
+   "costo_asis": 0,
+   "costo_tobe": 0,
+   "ahorro": 0,
+   "pct_ahorro": 0
+  },
+  {
+   "id": "C2",
+   "codigo": "TPM",
+   "motivo": "Baja disponibilidad de equipos",
+   "causa_raiz": "Averías recurrentes por mantenimiento correctivo no programado que reducen ventanas de tiempo para MP",
+   "indicador_formula": "Disponibilidad % = (MTBF/(MTBF+MTTR)) * 100 (Baldeon-Pacheco et al., 2024).",
+   "herramienta": "TPM (Metodología)",
+   "objetivo": "Incrementar la disponibilidad de los equipos aplicando TPM",
+   "articulo": "Chiroque Taboada, S. I., & Cortez Lurita, M. Y. (2025). Implementación de mejora para incrementar la disponibilidad de equipos en una empresa de servicios de mantenimiento y operación in house del rubro de refrigeración industrial, mediante el TPM en su pilar de mantenimiento planificado [Trabajo de suficiencia profesional, Universidad Peruana de Ciencias Aplicadas]. Repositorio Académico UPC. https://repositorioacademico.upc.edu.pe/server/api/core/bitstreams/3de20914-e228-50e3-a823-74694e199d33/content",
+   "as_is_plan": 0.849,
+   "to_be_plan": 0.953,
+   "estandar_plan": 0.95,
+   "ref": "Planteamiento!N14:AB14",
+   "indicador": "Disponibilidad de equipos",
+   "unidad": "%",
+   "sentido": "Mayor es mejor",
+   "tipo": "Metodología",
+   "as_is": 0.849,
+   "to_be": 0.953,
+   "estandar": 0.95,
+   "prom_mensual_asis": 0.8494295856920434,
+   "factor_mensual": 0.31214631517100383,
+   "mejora": 0.12249705535924615,
+   "inversion": 19440,
+   "costo_asis": 99000,
+   "costo_tobe": 36807.69230769231,
+   "ahorro": 62192.30769230769,
+   "pct_ahorro": 0.6050372786753331
+  },
+  {
+   "id": "C3",
+   "codigo": "SMED",
+   "motivo": "Elevado tiempo de setup en el servicio",
+   "causa_raiz": "Ausencia de un procedimiento estandarizado para la preparación previa del servicio de mantenimiento.",
+   "indicador_formula": "Tiempo set up = Horas, minutos o segundos de preparación (Dantas & Lima, 2023)",
+   "herramienta": "SMED (Metodología)",
+   "objetivo": "Disminuir el tiempo de setup aplicando SMED",
+   "articulo": "Dantas, J. D., & Lima, A. A. de. (2023). Implementation of SMED methodology to reduce the setup time in a SMT production line. Instituto de Tecnologia e Educação Galileo da Amazônia (ITEGAM). https://rigalileo.itegam.org.br/items/d72529bc-7c36-4f25-a963-3a26f0b3d1a3",
+   "as_is_plan": 321.7,
+   "to_be_plan": 166.1,
+   "estandar_plan": 140.4,
+   "ref": "Planteamiento!N18:AB18",
+   "indicador": "Tiempo de setup mensual",
+   "unidad": "min/mes",
+   "sentido": "Menor es mejor",
+   "tipo": "Metodología",
+   "as_is": 321.7,
+   "to_be": 166.1,
+   "estandar": 140.4,
+   "prom_mensual_asis": 321.6666666666667,
+   "factor_mensual": 0.5163730569948186,
+   "mejora": 0.48368044762200807,
+   "inversion": 5250,
+   "costo_asis": 1875.96,
+   "costo_tobe": 968.6138724727839,
+   "ahorro": 907.3461275272161,
+   "pct_ahorro": 0.008827108241934067
+  },
+  {
+   "id": "C4",
+   "codigo": "ISOS",
+   "motivo": "Tiempos muertos durante el servicio",
+   "causa_raiz": "Ausencia de un procedimiento para asegurar oportunamente los recursos requeridos para el mantenimiento.",
+   "indicador_formula": "Tiempo muerto = Tiempo en horas, minutos o segundos improductivos durante el servicio (Hernandez Ledezma et al., 2024)",
+   "herramienta": "Intelligent Scheduling Optimization System (Herramienta)",
+   "objetivo": "Reducir los tiempos muertos mediante la implementación de Intelligent Scheduling Optimization System",
+   "articulo": "John, B. I. (2020). Integration of intelligent scheduling optimization systems improving production flow, minimizing delays, and maximizing throughput across large-scale industrial operations. Global Journal of Engineering and Technology Advances, 5(3), 156–169. https://doi.org/10.30574/gjeta.2020.5.3.0118",
+   "as_is_plan": 6.65,
+   "to_be_plan": 3.18,
+   "estandar_plan": 3.42,
+   "ref": "Planteamiento!N22:AB22",
+   "indicador": "Tiempo muerto mensual",
+   "unidad": "h/mes",
+   "sentido": "Menor es mejor",
+   "tipo": "Herramienta",
+   "as_is": 6.65,
+   "to_be": 3.18,
+   "estandar": 3.42,
+   "prom_mensual_asis": 6.645833333333333,
+   "factor_mensual": 0.4784952978056427,
+   "mejora": 0.5218045112781955,
+   "inversion": 16050,
+   "costo_asis": 1328.6349999999998,
+   "costo_tobe": 636.0132456140351,
+   "ahorro": 692.6217543859647,
+   "pct_ahorro": 0.006738164203494431
+  },
+  {
+   "id": "C5",
+   "codigo": "DMAIC",
+   "motivo": "Reprocesos en la ejecución del mantenimiento preventivo",
+   "causa_raiz": "Ausencia de un protocolo de verificación de conformidad al finalizar el mantenimiento preventivo, generando trabajos incompletos o mal ejecutados.",
+   "indicador_formula": "Reprocesos = N° de equipos con segundo mantenimiento / N° de equipos totales (Auccalla, 2023).",
+   "herramienta": "DMAIC (Metodología)",
+   "objetivo": "Reducir los reprocesos en la ejecución del mantenimiento preventivo aplicando DMAIC",
+   "articulo": "Hernández Melendez, C. M., Jasso Guerrero, H., López García, R. D., Coronado Reyes, H., & Maldonado Reyes, A. (2024). Implementación de metodología DMAIC para la mejora de la calidad y reducción de quejas de cliente en empresa PYMEs de Tamaulipas. Ciencia Latina Revista Científica Multidisciplinar, 8(4), 1692–1711. https://doi.org/10.37811/cl_rcm.v8i4.12404",
+   "as_is_plan": 0.199,
+   "to_be_plan": 0.034,
+   "estandar_plan": 0.05,
+   "ref": "Planteamiento!N26:AB26",
+   "indicador": "% de reprocesos",
+   "unidad": "%",
+   "sentido": "Menor es mejor",
+   "tipo": "Metodología",
+   "as_is": 0.199,
+   "to_be": 0.034,
+   "estandar": 0.05,
+   "prom_mensual_asis": 0.19861411736411735,
+   "factor_mensual": 0.17118622004934386,
+   "mejora": 0.8291457286432161,
+   "inversion": 9600,
+   "costo_asis": 48080.45772947369,
+   "costo_tobe": 9081.864237789474,
+   "ahorro": 38998.593491684216,
+   "pct_ahorro": 0.3793974488792385
+  }
+ ],
+ "nota_to_be_mensual": "Nota. El TO-BE mensual reparte el resultado anual simulado de cada objetivo según el patrón de 2025: si \"menor es mejor\", TO-BE = AS-IS × factor; si \"mayor es mejor\", TO-BE = 1 − (1 − AS-IS) × factor. Así el promedio del año coincide con el TO-BE simulado.",
+ "totales_base": {
+  "inversion": 58780,
+  "costo_asis": 150285.05272947368,
+  "costo_tobe": 47494.183663568605,
+  "ahorro": 102790.86906590508
+ },
+ "mensual_base": {
+  "ADDIE": {
+   "AS-IS": [
+    0.6666666666666666,
+    0.5833333333333334,
+    0.75,
+    0.5,
+    0.4166666666666667,
+    0.6666666666666666,
+    0.75,
+    0.5833333333333334,
+    0.5833333333333334,
+    0.5,
+    0.75,
+    0.6666666666666666
+   ],
+   "TO-BE": [
+    0.9284363636363637,
+    0.9105454545454547,
+    0.9463272727272728,
+    0.8926545454545456,
+    0.8747636363636364,
+    0.9284363636363637,
+    0.9463272727272728,
+    0.9105454545454547,
+    0.9105454545454547,
+    0.8926545454545456,
+    0.9463272727272728,
+    0.9284363636363637
+   ],
+   "ESTÁNDAR": [
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9,
+    0.9
+   ],
+   "cumple_tobe": [
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1
+   ],
+   "costo": {
+    "AS-IS": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "TO-BE": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "ahorro_tobe": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "logro": {
+    "AS-IS": [
+     0.7407407407407407,
+     0.6481481481481481,
+     0.8333333333333333,
+     0.5555555555555556,
+     0.46296296296296297,
+     0.7407407407407407,
+     0.8333333333333333,
+     0.6481481481481481,
+     0.6481481481481481,
+     0.5555555555555556,
+     0.8333333333333333,
+     0.7407407407407407
+    ],
+    "TO-BE": [
+     1.0315959595959596,
+     1.0117171717171718,
+     1.0514747474747475,
+     0.991838383838384,
+     0.971959595959596,
+     1.0315959595959596,
+     1.0514747474747475,
+     1.0117171717171718,
+     1.0117171717171718,
+     0.991838383838384,
+     1.0514747474747475,
+     1.0315959595959596
+    ]
+   }
+  },
+  "TPM": {
+   "AS-IS": [
+    0.8888888888888888,
+    0.8372093023255814,
+    0.9230769230769231,
+    0.782608695652174,
+    0.8695652173913043,
+    0.8237986270022883,
+    0.7843137254901961,
+    0.7422680412371134,
+    0.8944099378881988,
+    0.8633093525179856,
+    0.851063829787234,
+    0.9326424870466321
+   ],
+   "TO-BE": [
+    0.9653170760921107,
+    0.9491854835768133,
+    0.9759887449868458,
+    0.9321421053976079,
+    0.9592852632385647,
+    0.9449993906906927,
+    0.9326743241788031,
+    0.9195499187703599,
+    0.9670404511931239,
+    0.9573325180701505,
+    0.9535101232724037,
+    0.978974600532523
+   ],
+   "ESTÁNDAR": [
+    0.95,
+    0.95,
+    0.95,
+    0.95,
+    0.95,
+    0.95,
+    0.95,
+    0.95,
+    0.95,
+    0.95,
+    0.95,
+    0.95
+   ],
+   "cumple_tobe": [
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "costo": {
+    "AS-IS": [
+     13200,
+     6600,
+     13200,
+     4400,
+     4400,
+     13200,
+     2200,
+     13200,
+     11000,
+     8800,
+     2200,
+     6600
+    ],
+    "TO-BE": [
+     4907.692307692308,
+     2453.846153846154,
+     4907.692307692308,
+     1635.8974358974358,
+     1635.8974358974358,
+     4907.692307692308,
+     817.9487179487179,
+     4907.692307692308,
+     4089.74358974359,
+     3271.7948717948716,
+     817.9487179487179,
+     2453.846153846154
+    ]
+   },
+   "ahorro_tobe": [
+    8292.307692307691,
+    4146.153846153846,
+    8292.307692307691,
+    2764.1025641025644,
+    2764.1025641025644,
+    8292.307692307691,
+    1382.0512820512822,
+    8292.307692307691,
+    6910.25641025641,
+    5528.205128205129,
+    1382.0512820512822,
+    4146.153846153846
+   ],
+   "logro": {
+    "AS-IS": [
+     0.935672514619883,
+     0.8812729498164016,
+     0.9716599190283401,
+     0.8237986270022885,
+     0.9153318077803204,
+     0.867156449476093,
+     0.825593395252838,
+     0.7813347802495931,
+     0.9414841451454724,
+     0.9087466868610374,
+     0.8958566629339306,
+     0.981728933733297
+    ],
+    "TO-BE": [
+     1.0161232379916956,
+     0.9991426142913825,
+     1.027356573670364,
+     0.9812022162080084,
+     1.0097739613037524,
+     0.994736200727045,
+     0.9817624465040033,
+     0.9679472829161683,
+     1.0179373170453936,
+     1.0077184400738426,
+     1.0036948666025303,
+     1.030499579507919
+    ]
+   }
+  },
+  "SMED": {
+   "AS-IS": [
+    520,
+    580,
+    470,
+    180,
+    310,
+    390,
+    100,
+    450,
+    200,
+    470,
+    110,
+    80
+   ],
+   "TO-BE": [
+    268.51398963730566,
+    299.4963730569948,
+    242.69533678756474,
+    92.94715025906736,
+    160.07564766839377,
+    201.38549222797926,
+    51.637305699481864,
+    232.36787564766837,
+    103.27461139896373,
+    242.69533678756474,
+    56.80103626943005,
+    41.309844559585486
+   ],
+   "ESTÁNDAR": [
+    140.4,
+    140.4,
+    140.4,
+    140.4,
+    140.4,
+    140.4,
+    140.4,
+    140.4,
+    140.4,
+    140.4,
+    140.4,
+    140.4
+   ],
+   "cumple_tobe": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   "costo": {
+    "AS-IS": [
+     252.71999999999997,
+     281.88,
+     228.42,
+     87.48,
+     150.66,
+     189.54,
+     48.6,
+     218.7,
+     97.2,
+     228.42,
+     53.46,
+     38.879999999999995
+    ],
+    "TO-BE": [
+     130.4868429237947,
+     145.5430171073095,
+     117.94003110419906,
+     45.16852255054433,
+     77.790233281493,
+     97.86513219284603,
+     25.093623639191296,
+     112.92130637636082,
+     50.18724727838259,
+     117.94003110419906,
+     27.602986003110423,
+     20.074898911353035
+    ]
+   },
+   "ahorro_tobe": [
+    122.23315707620526,
+    136.3369828926905,
+    110.47996889580092,
+    42.31147744945567,
+    72.869766718507,
+    91.67486780715396,
+    23.506376360808705,
+    105.77869362363917,
+    47.01275272161741,
+    110.47996889580092,
+    25.857013996889577,
+    18.80510108864696
+   ],
+   "logro": {
+    "AS-IS": [
+     0.27,
+     0.24206896551724139,
+     0.2987234042553192,
+     0.78,
+     0.45290322580645165,
+     0.36000000000000004,
+     1.4040000000000001,
+     0.312,
+     0.7020000000000001,
+     0.2987234042553192,
+     1.2763636363636364,
+     1.7550000000000001
+    ],
+    "TO-BE": [
+     0.5228777844671886,
+     0.46878697917747936,
+     0.5785030806871022,
+     1.5105358217941,
+     0.8770853158804452,
+     0.6971703792895847,
+     2.71896447922938,
+     0.60421432871764,
+     1.35948223961469,
+     0.5785030806871022,
+     2.4717858902085275,
+     3.3987055990367256
+    ]
+   }
+  },
+  "ISOS": {
+   "AS-IS": [
+    11.666666666666666,
+    15,
+    10.833333333333334,
+    3.3333333333333335,
+    5.833333333333333,
+    7,
+    2,
+    8.333333333333334,
+    3.6666666666666665,
+    8.666666666666666,
+    2.0833333333333335,
+    1.3333333333333333
+   ],
+   "TO-BE": [
+    5.582445141065831,
+    7.17742946708464,
+    5.183699059561129,
+    1.594984326018809,
+    2.7912225705329154,
+    3.3494670846394987,
+    0.9569905956112854,
+    3.9874608150470228,
+    1.75448275862069,
+    4.146959247648903,
+    0.9968652037617557,
+    0.6379937304075236
+   ],
+   "ESTÁNDAR": [
+    3.42,
+    3.42,
+    3.42,
+    3.42,
+    3.42,
+    3.42,
+    3.42,
+    3.42,
+    3.42,
+    3.42,
+    3.42,
+    3.42
+   ],
+   "cumple_tobe": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   "costo": {
+    "AS-IS": [
+     194.36666666666665,
+     249.9,
+     180.48333333333335,
+     55.53333333333334,
+     97.18333333333332,
+     116.62,
+     33.32,
+     138.83333333333334,
+     61.086666666666666,
+     144.38666666666666,
+     34.708333333333336,
+     22.21333333333333
+    ],
+    "TO-BE": [
+     93.04269005847954,
+     119.6263157894737,
+     86.396783625731,
+     26.58362573099416,
+     46.52134502923977,
+     55.82561403508773,
+     15.950175438596492,
+     66.4590643274854,
+     29.241988304093574,
+     69.11742690058479,
+     16.61476608187135,
+     10.63345029239766
+    ]
+   },
+   "ahorro_tobe": [
+    101.32397660818711,
+    130.2736842105263,
+    94.08654970760234,
+    28.949707602339178,
+    50.661988304093555,
+    60.79438596491227,
+    17.369824561403508,
+    72.37426900584795,
+    31.84467836257309,
+    75.26923976608187,
+    18.093567251461987,
+    11.579883040935671
+   ],
+   "logro": {
+    "AS-IS": [
+     0.29314285714285715,
+     0.228,
+     0.31569230769230766,
+     1.026,
+     0.5862857142857143,
+     0.48857142857142855,
+     1.71,
+     0.4104,
+     0.9327272727272727,
+     0.39461538461538465,
+     1.6416,
+     2.565
+    ],
+    "TO-BE": [
+     0.6126347708894878,
+     0.47649371069182384,
+     0.6597605224963714,
+     2.144221698113207,
+     1.2252695417789756,
+     1.0210579514824796,
+     3.5737028301886786,
+     0.8576886792452828,
+     1.9492924528301883,
+     0.8247006531204644,
+     3.430754716981131,
+     5.360554245283018
+    ]
+   }
+  },
+  "DMAIC": {
+   "AS-IS": [
+    0.2222222222222222,
+    0.3333333333333333,
+    0.1,
+    0.14285714285714285,
+    0.125,
+    0.2222222222222222,
+    0.2857142857142857,
+    0.4,
+    0.1,
+    0.25,
+    0.1111111111111111,
+    0.09090909090909091
+   ],
+   "TO-BE": [
+    0.03804138223318752,
+    0.057062073349781285,
+    0.017118622004934386,
+    0.024455174292763407,
+    0.021398277506167983,
+    0.03804138223318752,
+    0.048910348585526814,
+    0.06847448801973754,
+    0.017118622004934386,
+    0.042796555012335966,
+    0.01902069111659376,
+    0.015562383640849442
+   ],
+   "ESTÁNDAR": [
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05
+   ],
+   "cumple_tobe": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "costo": {
+    "AS-IS": [
+     5342.273081052632,
+     5342.273081052632,
+     2671.136540526316,
+     2671.136540526316,
+     2671.136540526316,
+     5342.273081052632,
+     5342.273081052632,
+     5342.273081052632,
+     2671.136540526316,
+     5342.273081052632,
+     2671.136540526316,
+     2671.136540526316
+    ],
+    "TO-BE": [
+     1009.0960264210527,
+     1009.0960264210527,
+     504.54801321052634,
+     504.54801321052634,
+     504.54801321052634,
+     1009.0960264210527,
+     1009.0960264210527,
+     1009.0960264210527,
+     504.54801321052634,
+     1009.0960264210527,
+     504.54801321052634,
+     504.54801321052634
+    ]
+   },
+   "ahorro_tobe": [
+    4333.177054631579,
+    4333.177054631579,
+    2166.5885273157896,
+    2166.5885273157896,
+    2166.5885273157896,
+    4333.177054631579,
+    4333.177054631579,
+    4333.177054631579,
+    2166.5885273157896,
+    4333.177054631579,
+    2166.5885273157896,
+    2166.5885273157896
+   ],
+   "logro": {
+    "AS-IS": [
+     0.22500000000000003,
+     0.15000000000000002,
+     0.5,
+     0.35000000000000003,
+     0.4,
+     0.22500000000000003,
+     0.17500000000000002,
+     0.125,
+     0.5,
+     0.2,
+     0.45000000000000007,
+     0.55
+    ],
+    "TO-BE": [
+     1.3143581296154825,
+     0.8762387530769884,
+     2.920795843589961,
+     2.044557090512973,
+     2.336636674871969,
+     1.3143581296154825,
+     1.0222785452564864,
+     0.7301989608974903,
+     2.920795843589961,
+     1.1683183374359845,
+     2.628716259230965,
+     3.212875427948957
+    ]
+   }
+  }
+ },
+ "meses": [
+  "Ene",
+  "Feb",
+  "Mar",
+  "Abr",
+  "May",
+  "Jun",
+  "Jul",
+  "Ago",
+  "Set",
+  "Oct",
+  "Nov",
+  "Dic"
+ ],
+ "semaforo": {
+  "indicadores": {
+   "P. CENTRAL": {
+    "indicador": "Eficacia del cumplimiento del MP",
+    "tipo": "5 herramientas",
+    "unidad": "%",
+    "sentido": "Mayor",
+    "linea_base": 0.7311833333333334,
+    "meta": 0.9,
+    "escala_min": 0.4,
+    "escala_max": 1,
+    "rojo": "≤ 73,1 %",
+    "amarillo": "> 73,1 % y < 90,0 %",
+    "verde": "≥ 90,0 %",
+    "mensual_asis": [
+     0.6124,
+     0.6515,
+     0.7857,
+     0.9,
+     0.5714,
+     0.4583,
+     0.7196,
+     0.9,
+     0.7714,
+     0.6857,
+     0.9,
+     0.8182
+    ],
+    "mensual_tobe": [
+     0.9185,
+     0.8739,
+     0.9312,
+     0.9056,
+     0.8949,
+     0.9209,
+     0.9356,
+     0.8668,
+     0.9405,
+     0.8885,
+     0.9521,
+     0.9637
+    ],
+    "anual_asis": 0.7311833333333334,
+    "anual_tobe": 0.9160166666666667,
+    "estado": "CUMPLE",
+    "variacion_txt": "▲ 18,5 p.p."
+   },
+   "ADDIE": {
+    "indicador": "Cumplimiento de capacitación C(asist)",
+    "tipo": "Metodología",
+    "unidad": "%",
+    "sentido": "Mayor",
+    "linea_base": 0.6180583333333334,
+    "meta": 0.9,
+    "escala_min": 0.3,
+    "escala_max": 1,
+    "rojo": "≤ 61,8 %",
+    "amarillo": "> 61,8 % y < 90,0 %",
+    "verde": "≥ 90,0 %",
+    "mensual_asis": [
+     0.6667,
+     0.5833,
+     0.75,
+     0.5,
+     0.4167,
+     0.6667,
+     0.75,
+     0.5833,
+     0.5833,
+     0.5,
+     0.75,
+     0.6667
+    ],
+    "mensual_tobe": [
+     0.8671,
+     0.8929,
+     0.9094,
+     0.9169,
+     0.923,
+     0.9284,
+     0.9286,
+     0.9293,
+     0.9294,
+     0.9308,
+     0.9328,
+     0.931
+    ],
+    "anual_asis": 0.6180583333333334,
+    "anual_tobe": 0.9183,
+    "estado": "CUMPLE",
+    "variacion_txt": "▲ 30,0 p.p."
+   },
+   "TPM": {
+    "indicador": "Disponibilidad de los equipos",
+    "tipo": "Metodología",
+    "unidad": "%",
+    "sentido": "Mayor",
+    "linea_base": 0.8494333333333336,
+    "meta": 0.95,
+    "escala_min": 0.7,
+    "escala_max": 1,
+    "rojo": "≤ 84,9 %",
+    "amarillo": "> 84,9 % y < 95,0 %",
+    "verde": "≥ 95,0 %",
+    "mensual_asis": [
+     0.8889,
+     0.8372,
+     0.9231,
+     0.7826,
+     0.8696,
+     0.8238,
+     0.7843,
+     0.7423,
+     0.8944,
+     0.8633,
+     0.8511,
+     0.9326
+    ],
+    "mensual_tobe": [
+     0.9285,
+     0.9268,
+     0.965,
+     0.9415,
+     0.9597,
+     0.9553,
+     0.9463,
+     0.9421,
+     0.9704,
+     0.9655,
+     0.9604,
+     0.9767
+    ],
+    "anual_asis": 0.8494333333333336,
+    "anual_tobe": 0.9531833333333334,
+    "estado": "CUMPLE",
+    "variacion_txt": "▲ 10,4 p.p."
+   },
+   "SMED": {
+    "indicador": "Tiempo de setup del servicio",
+    "tipo": "Metodología",
+    "unidad": "min/mes",
+    "sentido": "Menor",
+    "linea_base": 321.6666666666667,
+    "meta": 140.4,
+    "escala_min": 0,
+    "escala_max": 650,
+    "rojo": "≥ 321,7 min/mes",
+    "amarillo": "< 321,7 min/mes y > 140,4 min/mes",
+    "verde": "≤ 140,4 min/mes",
+    "mensual_asis": [
+     520,
+     580,
+     470,
+     180,
+     310,
+     390,
+     100,
+     450,
+     200,
+     470,
+     110,
+     80
+    ],
+    "mensual_tobe": [
+     241.8,
+     137.4,
+     209.7,
+     138.1,
+     154.7,
+     171.2,
+     131.5,
+     94.8,
+     187.4,
+     150.7,
+     168.3,
+     208.1
+    ],
+    "anual_asis": 321.6666666666667,
+    "anual_tobe": 166.14166666666668,
+    "estado": "EN PROCESO",
+    "variacion_txt": "▼ 155,5 min/mes"
+   },
+   "ISOS": {
+    "indicador": "Tiempo muerto en el servicio",
+    "tipo": "Herramienta",
+    "unidad": "h/mes",
+    "sentido": "Menor",
+    "linea_base": 6.645,
+    "meta": 3.42,
+    "escala_min": 0,
+    "escala_max": 16,
+    "rojo": "≥ 6,65 h/mes",
+    "amarillo": "< 6,65 h/mes y > 3,42 h/mes",
+    "verde": "≤ 3,42 h/mes",
+    "mensual_asis": [
+     11.67,
+     15,
+     10.83,
+     3.33,
+     5.83,
+     7,
+     2,
+     8.33,
+     3.67,
+     8.67,
+     2.08,
+     1.33
+    ],
+    "mensual_tobe": [
+     7.16,
+     4.06,
+     4.36,
+     1.43,
+     1.59,
+     3.76,
+     4.11,
+     2.14,
+     2.37,
+     2.23,
+     2.48,
+     2.48
+    ],
+    "anual_asis": 6.645,
+    "anual_tobe": 3.1808333333333327,
+    "estado": "CUMPLE",
+    "variacion_txt": "▼ 3,46 h/mes"
+   },
+   "DMAIC": {
+    "indicador": "Reprocesos en el MP",
+    "tipo": "Metodología",
+    "unidad": "%",
+    "sentido": "Menor",
+    "linea_base": 0.19860833333333336,
+    "meta": 0.05,
+    "escala_min": 0,
+    "escala_max": 0.45,
+    "rojo": "≥ 19,9 %",
+    "amarillo": "< 19,9 % y > 5,0 %",
+    "verde": "≤ 5,0 %",
+    "mensual_asis": [
+     0.2222,
+     0.3333,
+     0.1,
+     0.1429,
+     0.125,
+     0.2222,
+     0.2857,
+     0.4,
+     0.1,
+     0.25,
+     0.1111,
+     0.0909
+    ],
+    "mensual_tobe": [
+     0.0794,
+     0.0493,
+     0.0374,
+     0.0327,
+     0.0284,
+     0.0262,
+     0.0262,
+     0.0265,
+     0.0268,
+     0.0253,
+     0.0263,
+     0.0264
+    ],
+    "anual_asis": 0.19860833333333336,
+    "anual_tobe": 0.03424166666666666,
+    "estado": "CUMPLE",
+    "variacion_txt": "▼ 16,4 p.p."
+   }
+  },
+  "n_cumple": 5,
+  "n_proceso": 1,
+  "n_critico": 0,
+  "ref": "SEMAFORIZACIÓN DE INDICADORES!J74:BO106"
+ },
+ "quincenas": [
+  {
+   "periodo": "SEMANA 01 y 02",
+   "programadas": 15,
+   "ejecutadas": 10,
+   "cumplimiento": 0.6666666666666666,
+   "costo_tracto": 14747.799999999997,
+   "costo_tolva": 19894.030000000002,
+   "costo_total": 34641.83
+  },
+  {
+   "periodo": "SEMANA 03 y 04",
+   "programadas": 8,
+   "ejecutadas": 5,
+   "cumplimiento": 0.625,
+   "costo_tracto": 3347.8399999999997,
+   "costo_tolva": 8468.140000000001,
+   "costo_total": 11815.980000000001
+  },
+  {
+   "periodo": "SEMANA 04 y 05",
+   "programadas": 11,
+   "ejecutadas": 6,
+   "cumplimiento": 0.5454545454545454,
+   "costo_tracto": 10635.51,
+   "costo_tolva": 4471.740000000001,
+   "costo_total": 15107.25
+  },
+  {
+   "periodo": "SEMANA 06 y 07",
+   "programadas": 11,
+   "ejecutadas": 7,
+   "cumplimiento": 0.6363636363636364,
+   "costo_tracto": 18621.930000000004,
+   "costo_tolva": 1407.28,
+   "costo_total": 20029.210000000003
+  },
+  {
+   "periodo": "SEMANA 08 y 09",
+   "programadas": 12,
+   "ejecutadas": 8,
+   "cumplimiento": 0.6666666666666666,
+   "costo_tracto": 5261.22,
+   "costo_tolva": 18017.83,
+   "costo_total": 23279.050000000003
+  },
+  {
+   "periodo": "SEMANA 10 y 11",
+   "programadas": 14,
+   "ejecutadas": 9,
+   "cumplimiento": 0.6428571428571429,
+   "costo_tracto": 11229.77,
+   "costo_tolva": 29989.02,
+   "costo_total": 41218.79
+  },
+  {
+   "periodo": "SEMANA 12 y 13",
+   "programadas": 14,
+   "ejecutadas": 10,
+   "cumplimiento": 0.7142857142857143,
+   "costo_tracto": 13467.644,
+   "costo_tolva": 17211.7,
+   "costo_total": 30679.344
+  },
+  {
+   "periodo": "SEMANA 14 y 15",
+   "programadas": 8,
+   "ejecutadas": 8,
+   "cumplimiento": 1,
+   "costo_tracto": 18270.006100000002,
+   "costo_tolva": 3658.39,
+   "costo_total": 21928.3961
+  },
+  {
+   "periodo": "SEMANA 16 y 17",
+   "programadas": 2,
+   "ejecutadas": 2,
+   "cumplimiento": 1,
+   "costo_tracto": 5066.83,
+   "costo_tolva": 192.66,
+   "costo_total": 5259.49
+  },
+  {
+   "periodo": "SEMANA 18 y 19",
+   "programadas": 5,
+   "ejecutadas": 4,
+   "cumplimiento": 0.8,
+   "costo_tracto": 3133.4300000000003,
+   "costo_tolva": 5416.55,
+   "costo_total": 8549.98
+  },
+  {
+   "periodo": "SEMANA 20 y 21",
+   "programadas": 7,
+   "ejecutadas": 4,
+   "cumplimiento": 0.5714285714285714,
+   "costo_tracto": 8958.43,
+   "costo_tolva": 2817.64,
+   "costo_total": 11776.07
+  },
+  {
+   "periodo": "SEMANA 22 y 23",
+   "programadas": 7,
+   "ejecutadas": 4,
+   "cumplimiento": 0.5714285714285714,
+   "costo_tracto": 695.32,
+   "costo_tolva": 134.08,
+   "costo_total": 829.4000000000001
+  },
+  {
+   "periodo": "SEMANA 24 y 25",
+   "programadas": 4,
+   "ejecutadas": 1,
+   "cumplimiento": 0.25,
+   "costo_tracto": 1888.82,
+   "costo_tolva": 560.2,
+   "costo_total": 2449.02
+  },
+  {
+   "periodo": "SEMANA 26 y 27",
+   "programadas": 18,
+   "ejecutadas": 12,
+   "cumplimiento": 0.6666666666666666,
+   "costo_tracto": 12858.829999999998,
+   "costo_tolva": 7151.18,
+   "costo_total": 20010.01
+  },
+  {
+   "periodo": "SEMANA 28 y 29",
+   "programadas": 17,
+   "ejecutadas": 12,
+   "cumplimiento": 0.7058823529411765,
+   "costo_tracto": 14418.10498,
+   "costo_tolva": 9635.900000000001,
+   "costo_total": 24054.00498
+  },
+  {
+   "periodo": "SEMANA 30 y 31",
+   "programadas": 15,
+   "ejecutadas": 11,
+   "cumplimiento": 0.7333333333333333,
+   "costo_tracto": 7220.69,
+   "costo_tolva": 8395.15,
+   "costo_total": 15615.84
+  },
+  {
+   "periodo": "SEMANA 32 y 33",
+   "programadas": 10,
+   "ejecutadas": 8,
+   "cumplimiento": 0.8,
+   "costo_tracto": 4846.089999999999,
+   "costo_tolva": 56401.09,
+   "costo_total": 61247.17999999999
+  },
+  {
+   "periodo": "SEMANA 34 y 35",
+   "programadas": 7,
+   "ejecutadas": 7,
+   "cumplimiento": 1,
+   "costo_tracto": 4219.549999999999,
+   "costo_tolva": 2183.42,
+   "costo_total": 6402.969999999999
+  },
+  {
+   "periodo": "SEMANA 36 y 37",
+   "programadas": 5,
+   "ejecutadas": 3,
+   "cumplimiento": 0.6,
+   "costo_tracto": 18895.25,
+   "costo_tolva": 6572.130000000001,
+   "costo_total": 25467.38
+  },
+  {
+   "periodo": "SEMANA 38 y 39",
+   "programadas": 14,
+   "ejecutadas": 10,
+   "cumplimiento": 0.7142857142857143,
+   "costo_tracto": 21726.34662,
+   "costo_tolva": 4019.43,
+   "costo_total": 25745.77662
+  },
+  {
+   "periodo": "SEMANA 40 y 41",
+   "programadas": 11,
+   "ejecutadas": 11,
+   "cumplimiento": 1,
+   "costo_tracto": 19618.58,
+   "costo_tolva": 10931.71,
+   "costo_total": 30550.29
+  },
+  {
+   "periodo": "SEMANA 42 y 43",
+   "programadas": 7,
+   "ejecutadas": 4,
+   "cumplimiento": 0.5714285714285714,
+   "costo_tracto": 20759.200000000004,
+   "costo_tolva": 1042.5900000000001,
+   "costo_total": 21801.790000000005
+  },
+  {
+   "periodo": "SEMANA 44 y 45",
+   "programadas": 10,
+   "ejecutadas": 8,
+   "cumplimiento": 0.8,
+   "costo_tracto": 5648.05,
+   "costo_tolva": 7963.19,
+   "costo_total": 13611.24
+  },
+  {
+   "periodo": "SEMANA 46 y 47",
+   "programadas": 10,
+   "ejecutadas": 8,
+   "cumplimiento": 0.8,
+   "costo_tracto": 11969.775200000002,
+   "costo_tolva": 2604.6966,
+   "costo_total": 14574.471800000003
+  },
+  {
+   "periodo": "SEMANA 48 y 49",
+   "programadas": 9,
+   "ejecutadas": 9,
+   "cumplimiento": 1,
+   "costo_tracto": 15490.296599999998,
+   "costo_tolva": 5380.8826,
+   "costo_total": 20871.1792
+  },
+  {
+   "periodo": "SEMANA 50 y 51",
+   "programadas": 11,
+   "ejecutadas": 9,
+   "cumplimiento": 0.8181818181818182,
+   "costo_tracto": 0,
+   "costo_tolva": 0,
+   "costo_total": 0
+  }
+ ],
+ "quincenas_total": {
+  "programadas": 262,
+  "ejecutadas": 190,
+  "cumplimiento": 0.7269203835380303,
+  "costo_tracto": 272995.3135,
+  "costo_tolva": 234520.6292,
+  "costo_total": 507515.9427
+ },
+ "quincenas_ref": "Análisis Cuantitativo!K216:R242 (= DESARROLLO DEL PROBLEMA CENTRAL!H57:K83)",
+ "flujo": {
+  "kpi": {
+   "van": 320909.10829136206,
+   "tir": 1.1306078965338897,
+   "cppc": 0.15123230999999998,
+   "bc": 6.199518921099857,
+   "recuperacion_txt": "1 año y 1 mes",
+   "inversion": 61719,
+   "txt_van": "descontado al CPPC",
+   "txt_tir": "Tasa de corte: 15,12 %",
+   "txt_cppc": "COK: 14,21 %",
+   "txt_bc": "por cada S/ invertido",
+   "txt_rec": "Simple: 1 año",
+   "txt_inv": "Horizonte: 10 años"
+  },
+  "parametros": [
+   {
+    "concepto": "Impuesto a la renta (IR)",
+    "valor": 0.295,
+    "unidad": "%",
+    "fuente": "TUO de la Ley del Impuesto a la Renta, art. 55 (régimen general, Perú).",
+    "ref": "Flujo Caja!H15"
+   },
+   {
+    "concepto": "Año base (año 0 = implementación)",
+    "valor": 2026,
+    "unidad": "año",
+    "fuente": "Nov–dic 2026: compras y preparación; operación desde enero 2027.",
+    "ref": "Flujo Caja!H16"
+   },
+   {
+    "concepto": "Horizonte de evaluación",
+    "valor": 10,
+    "unidad": "años",
+    "fuente": "Proyección a 10 años.",
+    "ref": "Flujo Caja!H17"
+   },
+   {
+    "concepto": "Crecimiento anual de ingresos y ahorros",
+    "valor": 0.02,
+    "unidad": "% anual",
+    "fuente": "Meta de inflación del BCRP (2 %).",
+    "ref": "Flujo Caja!H18"
+   },
+   {
+    "concepto": "Crecimiento anual de los costos",
+    "valor": 0.03,
+    "unidad": "% anual",
+    "fuente": "Supuesto prudente: los costos crecen un punto más que los ingresos.",
+    "ref": "Flujo Caja!H19"
+   },
+   {
+    "concepto": "Factor de adopción de las mejoras en el año 1",
+    "valor": 0.85,
+    "unidad": "%",
+    "fuente": "Las simulaciones muestran que enero–febrero aún están bajo el estándar.",
+    "ref": "Flujo Caja!H20"
+   },
+   {
+    "concepto": "Imprevistos sobre la inversión",
+    "valor": 0.05,
+    "unidad": "%",
+    "fuente": "Reserva por variación de precios de las cotizaciones.",
+    "ref": "Flujo Caja!H21"
+   },
+   {
+    "concepto": "Costo H-H del técnico",
+    "valor": 8.33,
+    "unidad": "S/ por hora",
+    "fuente": "Análisis Cuantitativo: S/ 2 000 ÷ (30 días × 8 h).",
+    "ref": "Flujo Caja!H23"
+   },
+   {
+    "concepto": "Costo H-H del supervisor",
+    "valor": 12.5,
+    "unidad": "S/ por hora",
+    "fuente": "Análisis Cuantitativo: S/ 3 000 ÷ (30 días × 8 h).",
+    "ref": "Flujo Caja!H24"
+   },
+   {
+    "concepto": "Técnicos por OT de mantenimiento preventivo",
+    "valor": 2,
+    "unidad": "personas",
+    "fuente": null,
+    "ref": "Flujo Caja!H25"
+   },
+   {
+    "concepto": "Supervisores que participan en el setup",
+    "valor": 1,
+    "unidad": "personas",
+    "fuente": null,
+    "ref": "Flujo Caja!H26"
+   },
+   {
+    "concepto": "Costo anual por fallas de la flota 2025",
+    "valor": 99000,
+    "unidad": "S/ al año",
+    "fuente": "Análisis Cuantitativo, problema 3: reparación + alquiler de camión sustituto.",
+    "ref": "Flujo Caja!H28"
+   },
+   {
+    "concepto": "Costo anual del mantenimiento preventivo 2025",
+    "valor": 507515.9427,
+    "unidad": "S/ al año",
+    "fuente": "Planteamiento: costo de los MP ejecutados en 2025.",
+    "ref": "Flujo Caja!H29"
+   },
+   {
+    "concepto": "Mantenimientos preventivos ejecutados 2025",
+    "valor": 190,
+    "unidad": "MP",
+    "fuente": "Análisis Cuantitativo: 190 OT ejecutadas de 262 programadas.",
+    "ref": "Flujo Caja!H30"
+   },
+   {
+    "concepto": "Costo promedio de ejecutar una OT preventiva",
+    "valor": 2671.136540526316,
+    "unidad": "S/ por OT",
+    "fuente": "Costo anual de MP ÷ MP ejecutados.",
+    "ref": "Flujo Caja!H31"
+   },
+   {
+    "concepto": "Cumplimiento de OT preventivas AS-IS 2025",
+    "valor": 0.7269203835380303,
+    "unidad": "%",
+    "fuente": "Ficha Técnica: promedio de cumplimiento 2025 (Planteamiento).",
+    "ref": "Flujo Caja!H32"
+   },
+   {
+    "concepto": "Cumplimiento de OT preventivas TO-BE (meta)",
+    "valor": 0.9,
+    "unidad": "%",
+    "fuente": "Planteamiento: valor de referencia que se alcanza al resolver las 5 causas.",
+    "ref": "Flujo Caja!H33"
+   },
+   {
+    "concepto": "Margen comercial sobre el costo de la OT",
+    "valor": 0.2,
+    "unidad": "%",
+    "fuente": null,
+    "ref": "Flujo Caja!H34"
+   },
+   {
+    "concepto": "Participación del préstamo bancario",
+    "valor": 0.4,
+    "unidad": "% de la inversión",
+    "fuente": "Crédito para pequeña empresa; el resto lo aporta el titular de la EIRL.",
+    "ref": "Flujo Caja!H36"
+   },
+   {
+    "concepto": "Tasa efectiva anual del préstamo (TEA)",
+    "valor": 0.165,
+    "unidad": "% anual",
+    "fuente": null,
+    "ref": "Flujo Caja!H37"
+   },
+   {
+    "concepto": "Plazo del préstamo",
+    "valor": 5,
+    "unidad": "años",
+    "fuente": "Cuotas anuales iguales (método francés); máximo 10 años.",
+    "ref": "Flujo Caja!H38"
+   },
+   {
+    "concepto": "Tasa libre de riesgo (Rf) – bono del Tesoro EE. UU. a 10 años",
+    "valor": 0.0484,
+    "unidad": "%",
+    "fuente": "U.S. Treasury, bono a 10 años.",
+    "ref": "Flujo Caja!H40"
+   },
+   {
+    "concepto": "Beta desapalancada del sector (βu) – Trucking",
+    "valor": 0.85,
+    "unidad": "veces",
+    "fuente": "Damodaran, Betas by Sector (US), enero 2026.",
+    "ref": "Flujo Caja!H41"
+   },
+   {
+    "concepto": "Prima de riesgo de mercado (Rm − Rf)",
+    "valor": 0.0423,
+    "unidad": "%",
+    "fuente": "Damodaran: prima implícita del S&P 500 a inicios de 2026.",
+    "ref": "Flujo Caja!H42"
+   },
+   {
+    "concepto": "Riesgo país Perú",
+    "valor": 0.0108,
+    "unidad": "%",
+    "fuente": "BCRP / EMBIG Perú: 108 puntos básicos (junio 2026).",
+    "ref": "Flujo Caja!H43"
+   },
+   {
+    "concepto": "Prima por tamaño y liquidez (empresa pequeña que no cotiza)",
+    "valor": 0.03,
+    "unidad": "%",
+    "fuente": "Supuesto para una EIRL pequeña.",
+    "ref": "Flujo Caja!H44"
+   },
+   {
+    "concepto": "Tasa – maquinaria, equipos y herramientas",
+    "valor": 0.1,
+    "unidad": "% anual",
+    "fuente": "Reglamento de la LIR, art. 22: otros bienes del activo fijo (10 %).",
+    "ref": "Flujo Caja!H46"
+   },
+   {
+    "concepto": "Tasa – equipos de procesamiento de datos",
+    "valor": 0.25,
+    "unidad": "% anual",
+    "fuente": "Reglamento de la LIR, art. 22 (25 %). Las tablets se reponen cada 4 años.",
+    "ref": "Flujo Caja!H47"
+   },
+   {
+    "concepto": "Tasa – intangibles y gastos preoperativos ",
+    "valor": 0.2,
+    "unidad": "% anual",
+    "fuente": "Capacitación, consultoría y configuración: se amortizan en 5 años.",
+    "ref": "Flujo Caja!H48"
+   },
+   {
+    "concepto": "Capital de trabajo – stock de repuestos (KT)",
+    "valor": 0,
+    "unidad": "% anual",
+    "fuente": "No se deprecia; se recupera al final del horizonte.",
+    "ref": "Flujo Caja!H49"
+   }
+  ],
+  "anios": [
+   2026,
+   2027,
+   2028,
+   2029,
+   2030,
+   2031,
+   2032,
+   2033,
+   2034,
+   2035,
+   2036
+  ],
+  "inversion_items": [
+   {
+    "concepto": "Asesoría externa en diseño instruccional (2 semanas)",
+    "propuesta": "ADDIE",
+    "cantidad": 1,
+    "unitario": 2400,
+    "total": 2400,
+    "clase": "INT-20"
+   },
+   {
+    "concepto": "Grabación con celular y edición de micro-videos de 4 minutos",
+    "propuesta": "ADDIE",
+    "cantidad": 12,
+    "unitario": 120,
+    "total": 1440,
+    "clase": "INT-20"
+   },
+   {
+    "concepto": "Proyector y ecran para el aula del taller",
+    "propuesta": "ADDIE",
+    "cantidad": 1,
+    "unitario": 2200,
+    "total": 2200,
+    "clase": "AF-10"
+   },
+   {
+    "concepto": "Componentes de descarte reacondicionados para las prácticas",
+    "propuesta": "ADDIE",
+    "cantidad": 1,
+    "unitario": 1500,
+    "total": 1500,
+    "clase": "AF-10"
+   },
+   {
+    "concepto": "Material impreso, checklists, certificados y afiches",
+    "propuesta": "ADDIE",
+    "cantidad": 1,
+    "unitario": 900,
+    "total": 900,
+    "clase": "INT-20"
+   },
+   {
+    "concepto": "Restauración del deterioro de equipos clase A (repuestos y MO)",
+    "propuesta": "TPM",
+    "cantidad": 4,
+    "unitario": 1800,
+    "total": 7200,
+    "clase": "INT-20"
+   },
+   {
+    "concepto": "Servicio externo de termografía y vibraciones – línea base",
+    "propuesta": "TPM",
+    "cantidad": 4,
+    "unitario": 450,
+    "total": 1800,
+    "clase": "INT-20"
+   },
+   {
+    "concepto": "Análisis de aceite en laboratorio – línea base",
+    "propuesta": "TPM",
+    "cantidad": 8,
+    "unitario": 180,
+    "total": 1440,
+    "clase": "INT-20"
+   },
+   {
+    "concepto": "Instrumentos básicos de inspección (pirómetro, estetoscopio, medidores)",
+    "propuesta": "TPM",
+    "cantidad": 1,
+    "unitario": 1400,
+    "total": 1400,
+    "clase": "AF-10"
+   },
+   {
+    "concepto": "Capacitación en el pilar de Mantenimiento Planificado",
+    "propuesta": "TPM",
+    "cantidad": 1,
+    "unitario": 1800,
+    "total": 1800,
+    "clase": "INT-20"
+   },
+   {
+    "concepto": "Hoja de vida de equipos en el ERP",
+    "propuesta": "TPM",
+    "cantidad": 1,
+    "unitario": 1200,
+    "total": 1200,
+    "clase": "INT-20"
+   },
+   {
+    "concepto": "Tableros de control visual y tarjetas TPM",
+    "propuesta": "TPM",
+    "cantidad": 1,
+    "unitario": 600,
+    "total": 600,
+    "clase": "INT-20"
+   },
+   {
+    "concepto": "Stock inicial de repuestos críticos de equipos clase A",
+    "propuesta": "TPM",
+    "cantidad": 1,
+    "unitario": 4000,
+    "total": 4000,
+    "clase": "KT"
+   },
+   {
+    "concepto": "Carro con tablero de sombras",
+    "propuesta": "SMED",
+    "cantidad": 1,
+    "unitario": 1500,
+    "total": 1500,
+    "clase": "AF-10"
+   },
+   {
+    "concepto": "Organizadores para kits de preparación",
+    "propuesta": "SMED",
+    "cantidad": 1,
+    "unitario": 400,
+    "total": 400,
+    "clase": "AF-10"
+   },
+   {
+    "concepto": "Gata hidráulica de accionamiento rápido",
+    "propuesta": "SMED",
+    "cantidad": 1,
+    "unitario": 1800,
+    "total": 1800,
+    "clase": "AF-10"
+   },
+   {
+    "concepto": "Kits de bloqueo por bahía",
+    "propuesta": "SMED",
+    "cantidad": 2,
+    "unitario": 175,
+    "total": 350,
+    "clase": "AF-10"
+   },
+   {
+    "concepto": "Capacitación en SMED y 5S",
+    "propuesta": "SMED",
+    "cantidad": 1,
+    "unitario": 800,
+    "total": 800,
+    "clase": "INT-20"
+   },
+   {
+    "concepto": "Señalización de bahías",
+    "propuesta": "SMED",
+    "cantidad": 1,
+    "unitario": 400,
+    "total": 400,
+    "clase": "INT-20"
+   },
+   {
+    "concepto": "Configuración de reglas de programación en el ERP (horas del proveedor)",
+    "propuesta": "ISOS",
+    "cantidad": 90,
+    "unitario": 95,
+    "total": 8550,
+    "clase": "INT-20"
+   },
+   {
+    "concepto": "Tablero semáforo \"OT lista\" en Power BI",
+    "propuesta": "ISOS",
+    "cantidad": 1,
+    "unitario": 2200,
+    "total": 2200,
+    "clase": "INT-20"
+   },
+   {
+    "concepto": "Tablets de uso rudo para técnicos",
+    "propuesta": "ISOS",
+    "cantidad": 3,
+    "unitario": 1500,
+    "total": 4500,
+    "clase": "AF-25"
+   },
+   {
+    "concepto": "Capacitación al programador y almacenero",
+    "propuesta": "ISOS",
+    "cantidad": 1,
+    "unitario": 800,
+    "total": 800,
+    "clase": "INT-20"
+   },
+   {
+    "concepto": "Torquímetros calibrados",
+    "propuesta": "DMAIC",
+    "cantidad": 2,
+    "unitario": 650,
+    "total": 1300,
+    "clase": "AF-10"
+   },
+   {
+    "concepto": "Calibración externa anual",
+    "propuesta": "DMAIC",
+    "cantidad": 1,
+    "unitario": 800,
+    "total": 800,
+    "clase": "INT-20"
+   },
+   {
+    "concepto": "Tablets para el checklist digital",
+    "propuesta": "DMAIC",
+    "cantidad": 2,
+    "unitario": 1200,
+    "total": 2400,
+    "clase": "AF-25"
+   },
+   {
+    "concepto": "Configuración del checklist y bloqueo en el ERP",
+    "propuesta": "DMAIC",
+    "cantidad": 1,
+    "unitario": 1500,
+    "total": 1500,
+    "clase": "INT-20"
+   },
+   {
+    "concepto": "Equipo para prueba de fugas (manómetro y detector UV)",
+    "propuesta": "DMAIC",
+    "cantidad": 1,
+    "unitario": 1100,
+    "total": 1100,
+    "clase": "AF-10"
+   },
+   {
+    "concepto": "Capacitación en DMAIC y en el estándar de conformidad",
+    "propuesta": "DMAIC",
+    "cantidad": 1,
+    "unitario": 2000,
+    "total": 2000,
+    "clase": "INT-20"
+   },
+   {
+    "concepto": "Impresión de instructivos y fotos patrón",
+    "propuesta": "DMAIC",
+    "cantidad": 1,
+    "unitario": 500,
+    "total": 500,
+    "clase": "INT-20"
+   }
+  ],
+  "inversion_subtotal": 58780,
+  "inversion_imprevistos": 2939,
+  "inversion_total": 61719,
+  "inversion_por_causa": [
+   {
+    "causa": "Bajo cumplimiento de capacitación del personal técnico",
+    "propuesta": "ADDIE",
+    "inversion": 8440,
+    "pct": 0.1435862538278326,
+    "activo_fijo": 3700,
+    "intangible": 4740
+   },
+   {
+    "causa": "Baja disponibilidad de equipos",
+    "propuesta": "TPM",
+    "inversion": 19440,
+    "pct": 0.3307247363048656,
+    "activo_fijo": 1400,
+    "intangible": 18040
+   },
+   {
+    "causa": "Elevado tiempo de setup en el servicio",
+    "propuesta": "SMED",
+    "inversion": 5250,
+    "pct": 0.08931609390949302,
+    "activo_fijo": 4050,
+    "intangible": 1200
+   },
+   {
+    "causa": "Tiempos muertos durante el servicio",
+    "propuesta": "ISOS",
+    "inversion": 16050,
+    "pct": 0.2730520585233073,
+    "activo_fijo": 4500,
+    "intangible": 11550
+   },
+   {
+    "causa": "Reprocesos en la ejecución del mantenimiento preventivo",
+    "propuesta": "DMAIC",
+    "inversion": 9600,
+    "pct": 0.16332085743450153,
+    "activo_fijo": 4800,
+    "intangible": 4800
+   }
+  ],
+  "eval_causas": [
+   {
+    "causa": "Bajo cumplimiento de capacitación del personal técnico",
+    "propuesta": "ADDIE",
+    "costo_asis": 0,
+    "costo_tobe": 0,
+    "beneficio": 0,
+    "pct": 0
+   },
+   {
+    "causa": "Baja disponibilidad de equipos",
+    "propuesta": "TPM",
+    "costo_asis": 99000,
+    "costo_tobe": 36807.69230769231,
+    "beneficio": 62192.30769230769,
+    "pct": 0.6050372786753331
+   },
+   {
+    "causa": "Elevado tiempo de setup en el servicio",
+    "propuesta": "SMED",
+    "costo_asis": 1875.96,
+    "costo_tobe": 968.6138724727839,
+    "beneficio": 907.3461275272161,
+    "pct": 0.008827108241934067
+   },
+   {
+    "causa": "Tiempos muertos durante el servicio",
+    "propuesta": "ISOS",
+    "costo_asis": 1328.6349999999998,
+    "costo_tobe": 636.0132456140351,
+    "beneficio": 692.6217543859647,
+    "pct": 0.006738164203494431
+   },
+   {
+    "causa": "Reprocesos en la ejecución del mantenimiento preventivo",
+    "propuesta": "DMAIC",
+    "costo_asis": 48080.45772947369,
+    "costo_tobe": 9081.864237789474,
+    "beneficio": 38998.593491684216,
+    "pct": 0.3793974488792385
+   }
+  ],
+  "eval_total": {
+   "costo_asis": 150285.05272947368,
+   "costo_tobe": 47494.183663568605,
+   "beneficio": 102790.86906590508
+  },
+  "costos_mensuales": {
+   "TPM": {
+    "asis": [
+     13200,
+     6600,
+     13200,
+     4400,
+     4400,
+     13200,
+     2200,
+     13200,
+     11000,
+     8800,
+     2200,
+     6600
+    ],
+    "tobe": [
+     4907.692307692308,
+     2453.846153846154,
+     4907.692307692308,
+     1635.8974358974358,
+     1635.8974358974358,
+     4907.692307692308,
+     817.9487179487179,
+     4907.692307692308,
+     4089.74358974359,
+     3271.7948717948716,
+     817.9487179487179,
+     2453.846153846154
+    ],
+    "ahorro": [
+     8292.307692307691,
+     4146.153846153846,
+     8292.307692307691,
+     2764.1025641025644,
+     2764.1025641025644,
+     8292.307692307691,
+     1382.0512820512822,
+     8292.307692307691,
+     6910.25641025641,
+     5528.205128205129,
+     1382.0512820512822,
+     4146.153846153846
+    ],
+    "detalle": [
+     {
+      "concepto": "Fallas registradas en la flota",
+      "valores": [
+       6,
+       3,
+       6,
+       2,
+       2,
+       6,
+       1,
+       6,
+       5,
+       4,
+       1,
+       3
+      ]
+     },
+     {
+      "concepto": "Costo de reparación (S/)",
+      "valores": [
+       9000,
+       4500,
+       9000,
+       3000,
+       3000,
+       9000,
+       1500,
+       9000,
+       7500,
+       6000,
+       1500,
+       4500
+      ]
+     },
+     {
+      "concepto": "Alquiler de camión sustituto (S/)",
+      "valores": [
+       4200,
+       2100,
+       4200,
+       1400,
+       1400,
+       4200,
+       700,
+       4200,
+       3500,
+       2800,
+       700,
+       2100
+      ]
+     }
+    ]
+   },
+   "SMED": {
+    "asis": [
+     252.71999999999997,
+     281.88,
+     228.42,
+     87.48,
+     150.66,
+     189.54,
+     48.6,
+     218.7,
+     97.2,
+     228.42,
+     53.46,
+     38.879999999999995
+    ],
+    "tobe": [
+     130.4868429237947,
+     145.5430171073095,
+     117.94003110419906,
+     45.16852255054433,
+     77.790233281493,
+     97.86513219284603,
+     25.093623639191296,
+     112.92130637636082,
+     50.18724727838259,
+     117.94003110419906,
+     27.602986003110423,
+     20.074898911353035
+    ],
+    "ahorro": [
+     122.23315707620526,
+     136.3369828926905,
+     110.47996889580092,
+     42.31147744945567,
+     72.869766718507,
+     91.67486780715396,
+     23.506376360808705,
+     105.77869362363917,
+     47.01275272161741,
+     110.47996889580092,
+     25.857013996889577,
+     18.80510108864696
+    ]
+   },
+   "ISOS": {
+    "asis": [
+     194.36666666666665,
+     249.9,
+     180.48333333333335,
+     55.53333333333334,
+     97.18333333333332,
+     116.62,
+     33.32,
+     138.83333333333334,
+     61.086666666666666,
+     144.38666666666666,
+     34.708333333333336,
+     22.21333333333333
+    ],
+    "tobe": [
+     93.04269005847954,
+     119.6263157894737,
+     86.396783625731,
+     26.58362573099416,
+     46.52134502923977,
+     55.82561403508773,
+     15.950175438596492,
+     66.4590643274854,
+     29.241988304093574,
+     69.11742690058479,
+     16.61476608187135,
+     10.63345029239766
+    ],
+    "ahorro": [
+     101.32397660818711,
+     130.2736842105263,
+     94.08654970760234,
+     28.949707602339178,
+     50.661988304093555,
+     60.79438596491227,
+     17.369824561403508,
+     72.37426900584795,
+     31.84467836257309,
+     75.26923976608187,
+     18.093567251461987,
+     11.579883040935671
+    ]
+   },
+   "DMAIC": {
+    "asis": [
+     5342.273081052632,
+     5342.273081052632,
+     2671.136540526316,
+     2671.136540526316,
+     2671.136540526316,
+     5342.273081052632,
+     5342.273081052632,
+     5342.273081052632,
+     2671.136540526316,
+     5342.273081052632,
+     2671.136540526316,
+     2671.136540526316
+    ],
+    "tobe": [
+     1009.0960264210527,
+     1009.0960264210527,
+     504.54801321052634,
+     504.54801321052634,
+     504.54801321052634,
+     1009.0960264210527,
+     1009.0960264210527,
+     1009.0960264210527,
+     504.54801321052634,
+     1009.0960264210527,
+     504.54801321052634,
+     504.54801321052634
+    ],
+    "ahorro": [
+     4333.177054631579,
+     4333.177054631579,
+     2166.5885273157896,
+     2166.5885273157896,
+     2166.5885273157896,
+     4333.177054631579,
+     4333.177054631579,
+     4333.177054631579,
+     2166.5885273157896,
+     4333.177054631579,
+     2166.5885273157896,
+     2166.5885273157896
+    ]
+   }
+  },
+  "asistencia_addie": {
+   "convocados": [
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12
+   ],
+   "asistieron": [
+    8,
+    7,
+    9,
+    6,
+    5,
+    8,
+    9,
+    7,
+    7,
+    6,
+    9,
+    8
+   ],
+   "cas_asis": [
+    0.6666666666666666,
+    0.5833333333333334,
+    0.75,
+    0.5,
+    0.4166666666666667,
+    0.6666666666666666,
+    0.75,
+    0.5833333333333334,
+    0.5833333333333334,
+    0.5,
+    0.75,
+    0.6666666666666666
+   ],
+   "cas_tobe": [
+    0.918,
+    0.918,
+    0.918,
+    0.918,
+    0.918,
+    0.918,
+    0.918,
+    0.918,
+    0.918,
+    0.918,
+    0.918,
+    0.918
+   ],
+   "recuperadas": [
+    3.016,
+    4.016,
+    2.016,
+    5.016,
+    6.016,
+    3.016,
+    2.016,
+    4.016,
+    4.016,
+    5.016,
+    2.016,
+    3.016
+   ],
+   "total_recuperadas": 43.191999999999986,
+   "beneficio_directo": 0
+  },
+  "indicadores_anuales": {
+   "fallas": [
+    78,
+    29
+   ],
+   "setup_h": [
+    64.3,
+    33.2
+   ],
+   "tiempo_muerto_h": [
+    79.8,
+    38.2
+   ],
+   "equipos_2do_mant": [
+    18,
+    3.4
+   ]
+  },
+  "ot": {
+   "precio_ot": 3205.363848631579,
+   "costo_ot": 2671.136540526316,
+   "margen": 0.2,
+   "meses": [
+    {
+     "mes": "Enero",
+     "programadas": 34,
+     "asis": 24.71529304029303,
+     "tobe": 30.6,
+     "adicionales": 5.884706959706971,
+     "ingreso_asis": 79221.50681969094,
+     "ingreso_tobe": 98084.13376812632,
+     "incremental": 18862.626948435383
+    },
+    {
+     "mes": "Febrero",
+     "programadas": 23,
+     "asis": 16.719168821374698,
+     "tobe": 20.7,
+     "adicionales": 3.9808311786253014,
+     "ingreso_asis": 53591.0193192027,
+     "ingreso_tobe": 66351.03166667368,
+     "incremental": 12760.012347470976
+    },
+    {
+     "mes": "Marzo",
+     "programadas": 28,
+     "asis": 20.35377073906485,
+     "tobe": 25.2,
+     "adicionales": 4.84622926093515,
+     "ingreso_asis": 65241.24091033373,
+     "ingreso_tobe": 80775.16898551579,
+     "incremental": 15533.928075182062
+    },
+    {
+     "mes": "Abril",
+     "programadas": 10,
+     "asis": 7.269203835380304,
+     "tobe": 9,
+     "adicionales": 1.7307961646196963,
+     "ingreso_asis": 23300.443182262046,
+     "ingreso_tobe": 28848.27463768421,
+     "incremental": 5547.831455422165
+    },
+    {
+     "mes": "Mayo",
+     "programadas": 12,
+     "asis": 8.723044602456364,
+     "tobe": 10.8,
+     "adicionales": 2.076955397543637,
+     "ingreso_asis": 27960.53181871445,
+     "ingreso_tobe": 34617.92956522106,
+     "incremental": 6657.3977465066055
+    },
+    {
+     "mes": "Junio",
+     "programadas": 29,
+     "asis": 21.08069112260288,
+     "tobe": 26.1,
+     "adicionales": 5.019308877397123,
+     "ingreso_asis": 67571.28522855992,
+     "ingreso_tobe": 83659.99644928421,
+     "incremental": 16088.71122072429
+    },
+    {
+     "mes": "Julio",
+     "programadas": 32,
+     "asis": 23.26145227321697,
+     "tobe": 28.8,
+     "adicionales": 5.53854772678303,
+     "ingreso_asis": 74561.41818323854,
+     "ingreso_tobe": 92314.47884058948,
+     "incremental": 17753.060657350943
+    },
+    {
+     "mes": "Agosto",
+     "programadas": 17,
+     "asis": 12.357646520146515,
+     "tobe": 15.3,
+     "adicionales": 2.9423534798534856,
+     "ingreso_asis": 39610.75340984547,
+     "ingreso_tobe": 49042.06688406316,
+     "incremental": 9431.313474217692
+    },
+    {
+     "mes": "Septiembre",
+     "programadas": 19,
+     "asis": 13.811487287222576,
+     "tobe": 17.1,
+     "adicionales": 3.2885127127774254,
+     "ingreso_asis": 44270.84204629788,
+     "ingreso_tobe": 54811.72181160001,
+     "incremental": 10540.879765302125
+    },
+    {
+     "mes": "Octubre",
+     "programadas": 18,
+     "asis": 13.084566903684546,
+     "tobe": 16.2,
+     "adicionales": 3.115433096315453,
+     "ingreso_asis": 41940.79772807168,
+     "ingreso_tobe": 51926.89434783158,
+     "incremental": 9986.096619759897
+    },
+    {
+     "mes": "Noviembre",
+     "programadas": 20,
+     "asis": 14.538407670760607,
+     "tobe": 18,
+     "adicionales": 3.4615923292393926,
+     "ingreso_asis": 46600.88636452409,
+     "ingreso_tobe": 57696.54927536842,
+     "incremental": 11095.66291084433
+    },
+    {
+     "mes": "Diciembre",
+     "programadas": 20,
+     "asis": 14.538407670760607,
+     "tobe": 18,
+     "adicionales": 3.4615923292393926,
+     "ingreso_asis": 46600.88636452409,
+     "ingreso_tobe": 57696.54927536842,
+     "incremental": 11095.66291084433
+    }
+   ],
+   "total": {
+    "programadas": 262,
+    "asis": 190.453140486964,
+    "tobe": 235.8,
+    "adicionales": 45.346859513036065,
+    "ingreso_asis": 610471.6113752656,
+    "ingreso_tobe": 755824.7955073265,
+    "incremental": 145353.1841320608
+   },
+   "ingreso_incremental": 145353.1841320608,
+   "costo_adicional": 121127.65344338401,
+   "margen_incremental": 24225.53068867678
+  },
+  "sostenimiento": [
+   {
+    "concepto": "Bonos anuales por asistencia ≥ 90 % y post-test aprobado",
+    "propuesta": "ADDIE",
+    "cantidad": 12,
+    "unitario": 100,
+    "monto": 1200,
+    "desde": 1
+   },
+   {
+    "concepto": "Horas de capacitación dentro de la jornada",
+    "propuesta": "ADDIE",
+    "cantidad": 144,
+    "unitario": 8.33,
+    "monto": 1199.52,
+    "desde": 1
+   },
+   {
+    "concepto": "Horas del jefe de mantenimiento como instructor interno",
+    "propuesta": "ADDIE",
+    "cantidad": 24,
+    "unitario": 12.5,
+    "monto": 300,
+    "desde": 1
+   },
+   {
+    "concepto": "Servicio externo de termografía y vibraciones (semestral)",
+    "propuesta": "TPM",
+    "cantidad": 8,
+    "unitario": 350,
+    "monto": 2800,
+    "desde": 1
+   },
+   {
+    "concepto": "Análisis de aceite periódico de equipos clase A",
+    "propuesta": "TPM",
+    "cantidad": 16,
+    "unitario": 180,
+    "monto": 2880,
+    "desde": 1
+   },
+   {
+    "concepto": "Reposición de consumibles de kits SMED y señalización",
+    "propuesta": "SMED",
+    "cantidad": 1,
+    "unitario": 400,
+    "monto": 400,
+    "desde": 1
+   },
+   {
+    "concepto": "Soporte mensual del ISOS en el ERP",
+    "propuesta": "ISOS",
+    "cantidad": 12,
+    "unitario": 250,
+    "monto": 3000,
+    "desde": 1
+   },
+   {
+    "concepto": "Licencias Power BI Pro (2 usuarios × 12 meses)",
+    "propuesta": "ISOS",
+    "cantidad": 24,
+    "unitario": 52,
+    "monto": 1248,
+    "desde": 1
+   },
+   {
+    "concepto": "Calibración externa de torquímetros",
+    "propuesta": "DMAIC",
+    "cantidad": 1,
+    "unitario": 800,
+    "monto": 800,
+    "desde": 2
+   }
+  ],
+  "sostenimiento_total": 13827.52,
+  "depreciacion": [
+   {
+    "concepto": "Activo fijo – maquinaria, equipos y herramientas (AF-10)",
+    "base": 11550,
+    "anuales": [
+     1155,
+     1155,
+     1155,
+     1155,
+     1155,
+     1155,
+     1155,
+     1155,
+     1155,
+     1155
+    ],
+    "libros": 0
+   },
+   {
+    "concepto": "Activo fijo – tablets, se reponen cada 4 años (AF-25)",
+    "base": 6900,
+    "anuales": [
+     1725,
+     1725,
+     1725,
+     1725,
+     1725,
+     1725,
+     1725,
+     1725,
+     1725,
+     1725
+    ],
+    "libros": 3450
+   },
+   {
+    "concepto": "Intangibles y gastos preoperativos (INT-20)",
+    "base": 39269,
+    "anuales": [
+     7853.8,
+     7853.8,
+     7853.8,
+     7853.8,
+     7853.799999999999,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "libros": 0
+   },
+   {
+    "concepto": "Capital de trabajo – stock de repuestos críticos (KT)",
+    "base": 4000,
+    "anuales": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "libros": 4000
+   },
+   {
+    "concepto": "Total depreciación y amortización",
+    "base": 61719,
+    "anuales": [
+     10733.8,
+     10733.8,
+     10733.8,
+     10733.8,
+     10733.8,
+     2880,
+     2880,
+     2880,
+     2880,
+     2880
+    ],
+    "libros": 7450
+   }
+  ],
+  "reinversion": [
+   0,
+   0,
+   0,
+   6900,
+   0,
+   0,
+   0,
+   6900,
+   0,
+   0
+  ],
+  "valor_residual": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   7450
+  ],
+  "financiamiento": {
+   "prestamo": 24687.600000000002,
+   "aporte": 37031.399999999994,
+   "part_prestamo": 0.4,
+   "part_aporte": 0.6,
+   "tea": 0.165,
+   "plazo": 5,
+   "cuota": 7627.952774135324,
+   "cronograma": [
+    {
+     "anio": 0,
+     "saldo_ini": null,
+     "interes": null,
+     "amortizacion": null,
+     "cuota": null,
+     "saldo_fin": 24687.600000000002
+    },
+    {
+     "anio": 1,
+     "saldo_ini": 24687.600000000002,
+     "interes": 4073.4540000000006,
+     "amortizacion": 3554.4987741353234,
+     "cuota": 7627.952774135324,
+     "saldo_fin": 21133.10122586468
+    },
+    {
+     "anio": 2,
+     "saldo_ini": 21133.10122586468,
+     "interes": 3486.9617022676725,
+     "amortizacion": 4140.991071867651,
+     "cuota": 7627.952774135324,
+     "saldo_fin": 16992.11015399703
+    },
+    {
+     "anio": 3,
+     "saldo_ini": 16992.11015399703,
+     "interes": 2803.69817540951,
+     "amortizacion": 4824.2545987258145,
+     "cuota": 7627.952774135324,
+     "saldo_fin": 12167.855555271215
+    },
+    {
+     "anio": 4,
+     "saldo_ini": 12167.855555271215,
+     "interes": 2007.6961666197506,
+     "amortizacion": 5620.256607515574,
+     "cuota": 7627.952774135324,
+     "saldo_fin": 6547.598947755641
+    },
+    {
+     "anio": 5,
+     "saldo_ini": 6547.598947755641,
+     "interes": 1080.3538263796809,
+     "amortizacion": 6547.598947755643,
+     "cuota": 7627.952774135324,
+     "saldo_fin": 0
+    },
+    {
+     "anio": 6,
+     "saldo_ini": 0,
+     "interes": 0,
+     "amortizacion": 0,
+     "cuota": 0,
+     "saldo_fin": 0
+    },
+    {
+     "anio": 7,
+     "saldo_ini": 0,
+     "interes": 0,
+     "amortizacion": 0,
+     "cuota": 0,
+     "saldo_fin": 0
+    },
+    {
+     "anio": 8,
+     "saldo_ini": 0,
+     "interes": 0,
+     "amortizacion": 0,
+     "cuota": 0,
+     "saldo_fin": 0
+    },
+    {
+     "anio": 9,
+     "saldo_ini": 0,
+     "interes": 0,
+     "amortizacion": 0,
+     "cuota": 0,
+     "saldo_fin": 0
+    },
+    {
+     "anio": 10,
+     "saldo_ini": 0,
+     "interes": 0,
+     "amortizacion": 0,
+     "cuota": 0,
+     "saldo_fin": 0
+    }
+   ],
+   "total": {
+    "interes": 13452.163870676617,
+    "amortizacion": 24687.600000000006,
+    "cuota": 38139.76387067662
+   }
+  },
+  "cok": {
+   "componentes": [
+    {
+     "concepto": "Tasa libre de riesgo (Rf) – bono del Tesoro EE. UU. a 10 años",
+     "valor": 0.0484
+    },
+    {
+     "concepto": "Beta desapalancada del sector (βu) – Trucking",
+     "valor": 0.85
+    },
+    {
+     "concepto": "Relación deuda / capital (D/E) del proyecto",
+     "valor": 0.6666666666666669
+    },
+    {
+     "concepto": "Beta apalancada (βL) = βu × [1 + (1 − IR) × D/E]",
+     "valor": 1.2495
+    },
+    {
+     "concepto": "Prima de riesgo de mercado (Rm − Rf)",
+     "valor": 0.0423
+    },
+    {
+     "concepto": "Riesgo país Perú",
+     "valor": 0.0108
+    },
+    {
+     "concepto": "Prima por tamaño y liquidez (empresa pequeña que no cotiza)",
+     "valor": 0.03
+    },
+    {
+     "concepto": "COK = Rf + βL × (Rm − Rf) + riesgo país + prima por tamaño",
+     "valor": 0.14205385
+    }
+   ],
+   "rf": 0.0484,
+   "beta_u": 0.85,
+   "de": 0.6666666666666669,
+   "beta_l": 1.2495,
+   "prima_mercado": 0.0423,
+   "riesgo_pais": 0.0108,
+   "prima_tamano": 0.03,
+   "cok": 0.14205385,
+   "aportes": [
+    {
+     "concepto": "Tasa libre de riesgo",
+     "valor": 0.0484
+    },
+    {
+     "concepto": "Prima de mercado × βL",
+     "valor": 0.05285385
+    },
+    {
+     "concepto": "Riesgo país",
+     "valor": 0.0108
+    },
+    {
+     "concepto": "Prima por tamaño",
+     "valor": 0.03
+    }
+   ]
+  },
+  "cppc": {
+   "valor": 0.15123230999999998,
+   "pasivos": {
+    "monto": 24687.600000000002,
+    "part": 0.4,
+    "costo": 0.165,
+    "pond": 0.066
+   },
+   "patrimonio": {
+    "monto": 37031.399999999994,
+    "part": 0.5999999999999999,
+    "costo": 0.14205385,
+    "pond": 0.08523230999999999
+   },
+   "total": {
+    "monto": 61719,
+    "part": 0.9999999999999999,
+    "pond": 0.15123230999999998
+   }
+  },
+  "detalle_flujo": {
+   "adopcion": [
+    0.85,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "ingresos_ot": [
+    123550.20651225167,
+    148260.24781470202,
+    151225.45277099605,
+    154249.96182641597,
+    157334.9610629443,
+    160481.6602842032,
+    163691.29348988726,
+    166965.11935968496,
+    170304.42174687868,
+    173710.51018181624
+   ],
+   "ahorros": [
+    87372.23870601931,
+    104846.68644722318,
+    106943.62017616763,
+    109082.49257969098,
+    111264.14243128481,
+    113489.42527991052,
+    115759.21378550873,
+    118074.39806121888,
+    120435.88602244327,
+    122844.60374289213
+   ],
+   "total_ingresos": [
+    210922.445218271,
+    253106.9342619252,
+    258169.0729471637,
+    263332.45440610696,
+    268599.1034942291,
+    273971.0855641137,
+    279450.507275396,
+    285039.51742090384,
+    290740.30776932195,
+    296555.11392470833
+   ],
+   "costo_ot": [
+    102958.5054268764,
+    124761.48304668553,
+    128504.3275380861,
+    132359.45736422867,
+    136330.24108515555,
+    140420.1483177102,
+    144632.7527672415,
+    148971.73535025876,
+    153440.8874107665,
+    158044.1140330895
+   ],
+   "sostenimiento": [
+    13027.52,
+    14242.3456,
+    14669.615968,
+    15109.70444704,
+    15562.9955804512,
+    16029.885447864734,
+    16510.78201130068,
+    17006.105471639697,
+    17516.28863578889,
+    18041.777294862553
+   ],
+   "total_gastos": [
+    115986.02542687641,
+    139003.82864668552,
+    143173.9435060861,
+    147469.16181126866,
+    151893.23666560673,
+    156450.03376557495,
+    161143.53477854218,
+    165977.84082189846,
+    170957.1760465554,
+    176085.89132795206
+   ],
+   "ingresos": [
+    210922.445218271,
+    253106.9342619252,
+    258169.0729471637,
+    263332.45440610696,
+    268599.1034942291,
+    273971.0855641137,
+    279450.507275396,
+    285039.51742090384,
+    290740.30776932195,
+    296555.11392470833
+   ],
+   "gastos": [
+    -115986.02542687641,
+    -139003.82864668552,
+    -143173.9435060861,
+    -147469.16181126866,
+    -151893.23666560673,
+    -156450.03376557495,
+    -161143.53477854218,
+    -165977.84082189846,
+    -170957.1760465554,
+    -176085.89132795206
+   ],
+   "depreciacion": [
+    -10733.8,
+    -10733.8,
+    -10733.8,
+    -10733.8,
+    -10733.8,
+    -2880,
+    -2880,
+    -2880,
+    -2880,
+    -2880
+   ],
+   "interes": [
+    -4073.4540000000006,
+    -3486.9617022676725,
+    -2803.69817540951,
+    -2007.6961666197506,
+    -1080.3538263796809,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "utilidad_neta": [
+    80129.16579139458,
+    99882.343912972,
+    101457.63126566808,
+    103121.79642821856,
+    104891.71300224267,
+    114641.05179853874,
+    115426.97249685385,
+    116181.67659900538,
+    116903.13172276656,
+    117589.22259675627
+   ],
+   "mas_dep": [
+    10733.8,
+    10733.8,
+    10733.8,
+    10733.8,
+    10733.8,
+    2880,
+    2880,
+    2880,
+    2880,
+    2880
+   ],
+   "pago_principal": [
+    -3554.4987741353234,
+    -4140.991071867651,
+    -4824.2545987258145,
+    -5620.256607515574,
+    -6547.598947755643,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "impuesto": [
+    -23638.103908461402,
+    -29465.29145432674,
+    -29930.00122337208,
+    -30420.92994632447,
+    -30943.055335661586,
+    -33819.11028056893,
+    -34050.95688657188,
+    -34273.594596706585,
+    -34486.423858216134,
+    -34688.820666043095
+   ],
+   "reinversion": [
+    0,
+    0,
+    0,
+    -6900,
+    0,
+    0,
+    0,
+    -6900,
+    0,
+    0
+   ],
+   "residual": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    7450
+   ],
+   "flujo": [
+    63670.36310879786,
+    77009.86138677761,
+    77437.17544357019,
+    70914.40987437851,
+    78134.85871882545,
+    83701.94151796981,
+    84256.01561028196,
+    77888.08200229879,
+    85296.70786455042,
+    93230.40193071318
+   ],
+   "valor_presente": [
+    55306.268383657385,
+    58105.92270376417,
+    50752.86860127775,
+    40372.21839266613,
+    38639.36513217266,
+    35954.869176112166,
+    31438.377834874518,
+    25244.52775567655,
+    24014.057208419214,
+    22799.633102741533
+   ],
+   "flujo_anio0": -61719
+  },
+  "van": {
+   "valor": 320909.10829136206,
+   "manual": 320909.1082913621,
+   "suma_vp": 382628.10829136206,
+   "inversion": 61719,
+   "financiado": 24687.600000000002,
+   "txt": "✔ VNA > 0: el proyecto genera valor",
+   "txt_manual": "✔ Coincide con la fórmula manual"
+  },
+  "tir": {
+   "valor": 1.1306078965338897,
+   "txt": "✔ TIR > CPPC: rinde más de lo que cuesta financiarlo"
+  },
+  "bc": {
+   "valor": 6.199518921099857,
+   "txt": "✔ B/C > 1: cada sol invertido regresa con ganancia"
+  },
+  "recuperacion": {
+   "acum_simple": [
+    -61719,
+    1951.3631087978574,
+    78961.22449557547,
+    156398.39993914566,
+    227312.8098135242,
+    305447.66853234963,
+    389149.61005031946,
+    473405.6256606014,
+    551293.7076629002,
+    636590.4155274506,
+    729820.8174581638
+   ],
+   "acum_desc": [
+    -61719,
+    -6412.731616342615,
+    51693.191087421554,
+    102446.0596886993,
+    142818.27808136542,
+    181457.64321353807,
+    217412.51238965025,
+    248850.89022452477,
+    274095.4179802013,
+    298109.4751886205,
+    320909.10829136206
+   ],
+   "simple_anios": 0.9693520970586671,
+   "simple_txt": "1 año",
+   "desc_anios": 1.1103627877838895,
+   "desc_txt": "1 año y 1 mes"
+  },
+  "ref": "Flujo Caja (hoja completa; valores guardados en las celdas del Excel)"
+ },
+ "conclusiones": {
+  "general": {
+   "texto": "La propuesta de mejora basada en la integración de ADDIE, TPM, SMED, ISOS y DMAIC demostró ser técnicamente viable para incrementar la eficacia del cumplimiento de las órdenes de trabajo (OT) de mantenimiento preventivo en TGM. Los resultados de la simulación evidenciaron que el cumplimiento de OT pasa de 72.69 % (AS-IS) a 91.58 % (TO-BE), superando el valor de referencia de 90 % y cerrando la brecha técnica de 17.31 puntos porcentuales; solo el objetivo de SMED aún no alcanza su estándar. Asimismo, la propuesta es económicamente rentable: con una inversión de S/ 61,719 genera un VAN de S/ 320,909, una TIR de 113.1 % y una relación beneficio/costo de 6.20, recuperando la inversión en 1 año y 1 mes. En conjunto, estos resultados permiten concluir que se cumple el objetivo general.",
+   "as_is": 0.727,
+   "to_be": 0.916,
+   "estandar": 0.9,
+   "resultado": "✔ CUMPLE",
+   "variacion": 0.2599724896836315
+  },
+  "especificas": {
+   "ADDIE": {
+    "texto": "La implementación del programa de capacitación basado en ADDIE permitió incrementar el cumplimiento de capacitación del personal técnico de 61.8 % (AS-IS) a 91.8 % (TO-BE simulado), una mejora de 30 puntos porcentuales que supera el estándar de 90 %. Estos resultados evidencian que atender la ausencia de un programa de capacitación continua, mediante sesiones planificadas, una política de asistencia con bonos y consecuencias y un registro de asistencia, reduce las inasistencias y asegura técnicos competentes para ejecutar el plan de mantenimiento preventivo.",
+    "as_is": 0.618,
+    "to_be": 0.918,
+    "estandar": 0.9,
+    "resultado": "✔ CUMPLE",
+    "variacion": 0.4854368932038835
+   },
+   "TPM": {
+    "texto": "La implementación del pilar de Mantenimiento Planificado del TPM permitió incrementar la disponibilidad de los equipos de 84.9 % (AS-IS) a 95.3 % (TO-BE simulado), superando ligeramente el estándar de 95 %. La priorización de los 4 equipos clase A, que concentran 48 de las 78 fallas (62 %), junto con la restauración y el mantenimiento preventivo periódico, redujo las averías por mantenimiento correctivo no programado y liberó ventanas de tiempo para el MP.",
+    "as_is": 0.849,
+    "to_be": 0.953,
+    "estandar": 0.95,
+    "resultado": "✔ CUMPLE",
+    "variacion": 0.12249705535924615
+   },
+   "SMED": {
+    "texto": "La implementación de SMED en el servicio de mantenimiento preventivo permitió reducir el tiempo de setup de 321.7 min/mes (AS-IS) a 166.1 min/mes (TO-BE simulado), logrando una reducción de 48.4 %. Si bien la mejora es significativa, el resultado aún no cumple el estándar de 140.4 min/mes, quedando una brecha de 25.7 min. La acción clave fue la estandarización de la preparación previa del servicio mediante la conversión de actividades internas en externas, para alcanzar la meta se requiere seguir convirtiendo actividades internas en externas.",
+    "as_is": 321.7,
+    "to_be": 166.1,
+    "estandar": 140.4,
+    "resultado": "✖ NO CUMPLE",
+    "variacion": -0.4836804476220081
+   },
+   "ISOS": {
+    "texto": "La implementación del Intelligent Scheduling Optimization System (ISOS) permitió reducir el tiempo muerto durante el servicio de 6.65 h/mes (AS-IS) a 3.18 h/mes (TO-BE simulado), una reducción de 52.2 % que supera el estándar de 3.42 h/mes. Estos resultados evidencian que la programación inteligente, integrada al ERP, asegura oportunamente los recursos requeridos para el mantenimiento y reduce las esperas durante la ejecución.",
+    "as_is": 6.65,
+    "to_be": 3.18,
+    "estandar": 3.42,
+    "resultado": "✔ CUMPLE",
+    "variacion": -0.5218045112781955
+   },
+   "DMAIC": {
+    "texto": "La implementación de DMAIC permitió reducir los reprocesos en la ejecución del mantenimiento preventivo de 19.9 % (AS-IS) a 3.4 % (TO-BE simulado), una reducción de 82.9 % que supera el estándar de 5 %. La incorporación de un protocolo de verificación de conformidad al finalizar el mantenimiento evita los trabajos incompletos o mal ejecutados y los segundos mantenimientos.",
+    "as_is": 0.199,
+    "to_be": 0.034,
+    "estandar": 0.05,
+    "resultado": "✔ CUMPLE",
+    "variacion": -0.8291457286432161
+   }
+  }
+ },
+ "problema_matriz": {
+  "problema": "BAJA EFICACIA DEL CUMPLIMIENTO DE MANTENIMIENTO PREVENTIVO",
+  "observable": "Se observa una baja eficacia del cumplimiento de mantenimiento preventivo ya que varias OT programadas no se ejecutan ni cierran en el ciclo establecido",
+  "definible": "La eficacia es el grado en que se alcanzan los objetivos o resultados planificados. (Fernández & Sánchez, 1997).",
+  "medible": "% Cumplimiento OT =  (OT ejecutadas / OT programadas) x 100%\n\n\n(Quispe & Espinoza, 2024)",
+  "registrable": "Registro de OT mediante el sistema ERP y reportes de cierre por periodo",
+  "impactante": "Incrementa fallas no programadas y reduce la disponibilidad de equipos",
+  "tratable": "Implementar seguimiento y control del avance de la programación de OT",
+  "controlable": "Control mediante indicadores de gestión: % cumplimiento, OT vencidas, tiempo de cierre"
+ },
+ "metodologias": {
+  "ADDIE": {
+   "hoja": "Desarrollo de Objetivo 1",
+   "etapas": [
+    {
+     "nombre": "FASE 1: ETAPA DE ANÁLISIS",
+     "pregunta": "¿Cuál es la brecha, quiénes son los participantes, qué les impide asistir y qué necesitan aprender?",
+     "que_se_hace": "Se cuantifica la brecha, se perfila a la audiencia con el Pareto de inasistencias, se aplican la encuesta diagnóstica y el pre-test y se analiza la carga mensual de OT para definir cuándo capacitar.",
+     "entregables": "Brecha medida, perfiles de la audiencia e instrumentos de diagnóstico"
+    },
+    {
+     "nombre": "FASE 2: ETAPA DE DISEÑO",
+     "pregunta": "¿Qué deben lograr los técnicos, en qué orden, con qué método, cuándo y bajo qué reglas de asistencia?",
+     "que_se_hace": "Se redactan los objetivos de aprendizaje, se arma la ruta de 6 módulos, se estructura la sesión de 60 minutos, se fija el calendario 2027 y se define la política de bonos y consecuencias.",
+     "entregables": "Matriz de diseño, ruta de aprendizaje, sesión tipo, calendario, política de asistencia y criterios de aprobación."
+    },
+    {
+     "nombre": "FASE 3: ETAPA DE DESARROLLO",
+     "pregunta": "¿Están listos y probados todos los materiales que necesita cada sesión?",
+     "que_se_hace": "Se producen las presentaciones, los micro-videos, el checklist, los formatos de asistencia, la encuesta de satisfacción y los certificados, y se validan con una prueba piloto con 3 técnicos.",
+     "entregables": "Kit completo del programa (presentaciones, videos, formatos y certificados) aprobado tras la prueba piloto."
+    },
+    {
+     "nombre": "FASE 4: ETAPA DE IMPLEMENTACIÓN",
+     "pregunta": "¿Quién hace qué, cuándo y cómo se comunica para que los 12 técnicos asistan a las 12 sesiones?",
+     "que_se_hace": "Se ejecuta el cronograma, se asignan responsables, se lanza el programa con comunicado y afiche, se convoca por WhatsApp (T-7 y T-1), se dicta cada sesión con un protocolo fijo y se registra la asistencia.",
+     "entregables": "Programa en marcha, registro mensual de C(asist), bonos y descuentos aplicados más avisos/comunicados."
+    },
+    {
+     "nombre": "FASE 5: ETAPA DE EVALUACIÓN",
+     "pregunta": "¿Asisten, aprenden, lo aplican en el taller y mejora el cumplimiento de las OT?",
+     "que_se_hace": "Se evalúa en 4 niveles (reacción, aprendizaje, comportamiento y resultados), se revisa cada etapa ADDIE con evaluación formativa y se toman decisiones con un semáforo mensual de C(asist).",
+     "entregables": "Indicadores de evaluación con fórmula y meta, reglas de decisión y datos para la proyección TO-BE de la Fase 3."
+    }
+   ],
+   "diagnostico": [
+    "Diagrama de Ishikawa",
+    "Diagrama de Pareto",
+    "Diagrama de flujo AS-IS (BPMN)",
+    "Árbol de problemas"
+   ],
+   "simulacion": "FASE 3: SIMULACIÓN DE RESULTADOS (PYTHON) — PROYECCIÓN TO-BE"
+  },
+  "TPM": {
+   "hoja": "Desarrollo de Objetivo 2",
+   "etapas": [
+    {
+     "nombre": "1. Evaluación y criticidad",
+     "inicio": "Nov 2026",
+     "fin": "Nov 2026",
+     "responsable": "Jefe de mantenimiento"
+    },
+    {
+     "nombre": "2. Restauración del deterioro",
+     "inicio": "Dic 2026",
+     "fin": "Dic 2026",
+     "responsable": "Técnicos de mantenimiento"
+    },
+    {
+     "nombre": "3. Sistema de información",
+     "inicio": "Dic 2026",
+     "fin": "Ene 2027",
+     "responsable": "Programador de mantenimiento"
+    },
+    {
+     "nombre": "4. Mantenimiento periódico",
+     "inicio": "Ene 2027",
+     "fin": "Continuo",
+     "responsable": "Jefe de mantenimiento"
+    },
+    {
+     "nombre": "5. Mantenimiento predictivo",
+     "inicio": "Feb 2027",
+     "fin": "Continuo",
+     "responsable": "Técnico predictivo"
+    },
+    {
+     "nombre": "6. Evaluación del sistema",
+     "inicio": "Mar 2027",
+     "fin": "Mensual",
+     "responsable": "Jefe de mantenimiento"
+    }
+   ],
+   "pilares": [
+    {
+     "pilar": "Mantenimiento planificado",
+     "aplica": "SÍ",
+     "motivo": "Ataca la causa raíz: averías por mantenimiento correctivo no programado"
+    },
+    {
+     "pilar": "Mantenimiento autónomo",
+     "aplica": "NO",
+     "motivo": "Se cubre parcialmente en el Objetivo 1 (capacitación ADDIE)"
+    },
+    {
+     "pilar": "Mejora enfocada",
+     "aplica": "NO",
+     "motivo": "Fuera del alcance de este objetivo"
+    },
+    {
+     "pilar": "Mantenimiento de calidad",
+     "aplica": "NO",
+     "motivo": "Los reprocesos se tratan en el Objetivo 4"
+    },
+    {
+     "pilar": "Control inicial",
+     "aplica": "NO",
+     "motivo": "No hay compra de equipos nuevos"
+    },
+    {
+     "pilar": "Educación y entrenamiento",
+     "aplica": "NO",
+     "motivo": "Se cubre en el Objetivo 1"
+    },
+    {
+     "pilar": "TPM en oficinas",
+     "aplica": "NO",
+     "motivo": "Fuera del alcance"
+    },
+    {
+     "pilar": "Seguridad, salud y medio ambiente",
+     "aplica": "NO",
+     "motivo": "Fuera del alcance"
+    }
+   ],
+   "nota": "Nota. Elaboración propia. Chiroque y Cortez (2025) estimaron una implementación de cinco meses.",
+   "diagnostico": [
+    "Diagrama de Ishikawa",
+    "Diagrama de Pareto",
+    "Diagrama de flujo AS-IS (BPMN)",
+    "Árbol de problemas"
+   ],
+   "simulacion": "FASE 3: SIMULACIÓN DE RESULTADOS (PYTHON) — PROYECCIÓN TO-BE"
+  },
+  "SMED": {
+   "hoja": "Desarrollo de Objetivo 3",
+   "etapas": [
+    {
+     "nombre": "ETAPA 1: PREPARACIÓN PREVIA",
+     "descripcion": "Fase preliminar en la que se investiga el proceso (el servicio, la operación de preparación, los equipos, la distribución del taller y las instrucciones existentes) y se crea el equipo SMED, dándole la formación sobre los fundamentos del SMED y los medios necesarios. El diagnóstico mostró además que el taller y el almacén no tienen orden, algo que condicionará el resultado."
+    },
+    {
+     "nombre": "ETAPA 2: ANÁLISIS DE LAS ACTIVIDADES",
+     "descripcion": null
+    },
+    {
+     "nombre": "ETAPA 3: SEPARAR LO INTERNO DE LO EXTERNO",
+     "descripcion": "Cada actividad se clasifica con una sola pregunta: ¿necesita la unidad detenida en la bahía? Si la respuesta es sí, es interna; si no, es externa y debe hacerse antes. En TGM todas las actividades se hacían con la unidad detenida, incluso las que no la necesitan."
+    },
+    {
+     "nombre": "ETAPA 4: ORGANIZACIÓN DE LAS ACTIVIDADES EXTERNAS",
+     "descripcion": "Se planifican las actividades externas para que estén listas cuando llegue la unidad: qué preparaciones son necesarias, qué herramientas y repuestos hacen falta y si están en buenas condiciones. Todo se concentra en el día anterior (T-1) y se verifica con la lista F01. En la prueba piloto el setup interno bajó de 39.0 a 20.5 min, pero en 3 de cada 10 servicios el kit llegó incompleto o faltaban herramientas en el carro, porque el almacén no tiene ubicaciones fijas; esos faltantes se completaron con la unidad detenida."
+    },
+    {
+     "nombre": "ETAPA 5: CONVERTIR LO INTERNO EN EXTERNO",
+     "descripcion": "Se elabora un listado cronológico de las operaciones que se hacen con la unidad detenida y se sigue su comportamiento en los 10 servicios grabados. La espera del conductor (act. 12) se convierte en externa: el ERP avisa el día anterior y la unidad llega a la bahía a hora fija. Sin embargo, por las rutas y las urgencias de operaciones, la espera solo baja de 3.5 a 2.0 min y el setup interno pasa de 20.5 a 19.0 min."
+    },
+    {
+     "nombre": "ETAPA 6: REDUCIR LOS TIEMPOS DE LAS ACTIVIDADES INTERNAS",
+     "descripcion": "Las operaciones que siguen siendo internas se acortan con mejoras de método: gata hidráulica de accionamiento rápido, checklist digital de recepción y kit de bloqueo fijo por bahía. La bahía asignada no logró reducir el traslado (2.0 min), porque las bahías siguen ocupadas con equipos y repuestos de otros servicios. El setup interno queda en 18.0 min, todavía 1.0 min por encima de la meta de 17.0 min."
+    },
+    {
+     "nombre": "ETAPA 7: REDUCIR LOS TIEMPOS DE LAS ACTIVIDADES EXTERNAS",
+     "descripcion": "Aunque lo externo ya no detiene la unidad, consume horas del técnico y de almacén. Se simplifica con kits preconfigurados por tipo de MP (MP-A, MP-B y MP-C), OT y permiso digitales, aviso automático del ERP y revisión del carro al cierre del turno. El setup externo baja de 18.5 a 8.2 min por servicio; armar el kit todavía toma 2.5 min porque los repuestos no tienen ubicación fija."
+    },
+    {
+     "nombre": "ETAPA 8: SEGUIMIENTO",
+     "descripcion": "Se registra el setup interno de cada OT en el ERP y se grafica en una carta de control; las desviaciones se analizan y se corrigen. En la prueba piloto el setup se estabilizó en 18.3 min por servicio, dentro de los límites de control pero por encima de la meta de 17.0 min. Las desviaciones abiertas (kits incompletos, herramientas que faltan, bahías ocupadas) tienen una causa común: la falta de orden y disciplina en el taller, que el SMED por sí solo no resuelve."
+    }
+   ],
+   "diagnostico": [
+    "Diagrama de Ishikawa",
+    "Diagrama de Pareto",
+    "Diagrama de flujo AS-IS (BPMN)",
+    "Árbol de problemas"
+   ],
+   "simulacion": "FASE 3: SIMULACIÓN DE RESULTADOS (PYTHON) — PROYECCIÓN TO-BE"
+  },
+  "ISOS": {
+   "hoja": "Desarrollo de Objetivo 4",
+   "etapas": [
+    {
+     "nombre": "A. ARQUITECTURA DEL ISOS INTEGRADO AL ERP"
+    },
+    {
+     "nombre": "B. DATOS DE ENTRADA DEL ISOS"
+    },
+    {
+     "nombre": "C. SEMÁFORO DE \"OT LISTA\" (RESTRICCIÓN PRINCIPAL)"
+    },
+    {
+     "nombre": "D. MODELO DE OPTIMIZACIÓN DEL ISOS"
+    },
+    {
+     "nombre": "E. DIAGRAMA DE FLUJO TO-BE CON EL ISOS"
+    },
+    {
+     "nombre": "F. PROGRAMACIÓN DE UN DÍA: AS-IS VS TO-BE"
+    },
+    {
+     "nombre": "G. TABLERO DEL ISOS EN EL ERP"
+    },
+    {
+     "nombre": "H. HOJA DE RUTA DE IMPLEMENTACIÓN"
+    },
+    {
+     "nombre": "I. ROLES E INDICADORES DE CONTROL"
+    }
+   ],
+   "diagnostico": [
+    "Diagrama de Ishikawa",
+    "Diagrama de Pareto",
+    "Diagrama de flujo AS-IS (BPMN)",
+    "Árbol de problemas"
+   ],
+   "simulacion": "FASE 3: SIMULACIÓN DE RESULTADOS (PYTHON) — PROYECCIÓN TO-BE"
+  },
+  "DMAIC": {
+   "hoja": "Desarrollo de Objetivo 5",
+   "etapas": [
+    {
+     "nombre": "D - Definir",
+     "objetivo": "Delimitar el problema, la meta y el equipo",
+     "herramientas": "Project charter, SIPOC, VOC - CTQ",
+     "fecha": "Nov 2026"
+    },
+    {
+     "nombre": "M - Medir",
+     "objetivo": "Medir la línea base y validar la inspección",
+     "herramientas": "Plan de datos, MSA (Kappa), nivel sigma",
+     "fecha": "Nov - Dic 2026"
+    },
+    {
+     "nombre": "A - Analizar",
+     "objetivo": "Encontrar y priorizar las causas raíz",
+     "herramientas": "Ishikawa 6M, Pareto, ponderación, 5 porqués",
+     "fecha": "Dic 2026"
+    },
+    {
+     "nombre": "I - Mejorar",
+     "objetivo": "Implementar las acciones contra las causas",
+     "herramientas": "Protocolo F01, POE, torquímetros, poka-yoke",
+     "fecha": "Ene - Feb 2027"
+    },
+    {
+     "nombre": "C - Controlar",
+     "objetivo": "Mantener la mejora en el tiempo",
+     "herramientas": "Plan de control, carta p, auditorías, 8D",
+     "fecha": "Mar - Abr 2027 →"
+    }
+   ],
+   "diagnostico": [
+    "Diagrama de Ishikawa",
+    "Diagrama de Pareto",
+    "Diagrama de flujo AS-IS (BPMN)",
+    "Árbol de problemas"
+   ],
+   "simulacion": "FASE 3: SIMULACIÓN DE RESULTADOS (PYTHON) — PROYECCIÓN TO-BE"
+  }
+ },
+ "barreras": [
+  {
+   "causa": "Bajo cumplimiento de capacitación",
+   "herramienta": "C(asist)",
+   "barrera": "Técnico no capacitado"
+  },
+  {
+   "causa": "Baja disponibilidad de equipos",
+   "herramienta": "Disponibilidad",
+   "barrera": "Equipo no disponible"
+  },
+  {
+   "causa": "Elevado tiempo de setup",
+   "herramienta": "Setup (min/mes)",
+   "barrera": "Falta de tiempo en el turno"
+  },
+  {
+   "causa": "Tiempos muertos en el servicio",
+   "herramienta": "Tiempo muerto (h/mes)",
+   "barrera": "Falta de tiempo y reprogramación"
+  },
+  {
+   "causa": "Reprocesos en el MP",
+   "herramienta": "% reprocesos",
+   "barrera": "OT abierta por reproceso"
+  }
+ ],
+ "problema_central_texto": {
+  "titulo": "PROBLEMA CENTRAL: Baja eficacia del cumplimiento del mantenimiento preventivo",
+  "objetivo": "Incrementar la eficacia del cumplimiento de las órdenes de trabajo de mantenimiento preventivo en la empresa TGM, integrando las 5 herramientas: ADDIE, TPM, SMED, ISOS y DMAIC",
+  "indicador_def": "DEFINICIÓN Proporción de OT de mantenimiento preventivo programadas que se ejecutan dentro del periodo planificado; mide la eficacia del plan de mantenimiento (Quispe y Espinoza, 2024).",
+  "valor_ref": "VALOR DE REFERENCIA 90 % de cumplimiento de OT preventivas (Mesías, 2019).",
+  "relacion": "El bajo cumplimiento se explica por 5 causas raíz priorizadas con la matriz AHP. Cada causa crea una \"barrera\" que impide que una OT programada se ejecute a tiempo: falta de personal capacitado, tiempos muertos, equipos no disponibles, reprocesos y setups largos. Cada una tiene su herramienta de mejora, desarrollada en las hojas de los objetivos 1 a 5."
+ }
+}
